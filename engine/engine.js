@@ -133,15 +133,78 @@ function renderTest() {
 // -------------------------------------------------------------
 // GRADE TEST
 // -------------------------------------------------------------
-function gradeTest() {
+async function gradeTest() {
     const data = window.TESTDATA;
 
     let correct = 0;
     let total = 0;
+    let answers = [];
 
-    data.sections.forEach((section, sectionIndex) => {
+    // Get student name
+    const studentName = document.getElementById("student_name").value.trim() || "No name provided";
+
+    data.sections.forEach((section, sIndex) => {
         section.items.forEach((item, i) => {
             total++;
+
+            let userAnswer = "";
+            let correctAnswer = item.answer;
+
+            if (section.type === "tf") {
+                userAnswer = document.getElementById(`q_tf_${i}`).value;
+                if (userAnswer === correctAnswer) correct++;
+            }
+
+            if (section.type === "mc") {
+                userAnswer = document.getElementById(`q_mc_${i}`).value;
+                if (userAnswer === correctAnswer) correct++;
+            }
+
+            if (section.type === "sequence") {
+                userAnswer = document.getElementById(`q_seq_${i}`).value.trim().toLowerCase();
+                if (userAnswer === correctAnswer.toLowerCase()) correct++;
+            }
+
+            if (section.type === "ma") {
+                userAnswer = document.getElementById(`q_ma_${i}`).value;
+                if (userAnswer === correctAnswer) correct++;
+            }
+
+            if (section.type === "cloze") {
+                userAnswer = document.getElementById(`q_cloze_${i}`).value.trim().toLowerCase();
+                if (userAnswer === correctAnswer.toLowerCase()) correct++;
+            }
+
+            answers.push(
+                `Q${i + 1}: ${item.q}\nStudent: ${userAnswer || "(blank)"}\nCorrect: ${correctAnswer}\n`
+            );
+        });
+    });
+
+    document.getElementById("scorebox").innerHTML =
+        `Score: ${correct} / ${total}`;
+
+    //
+    // SEND RESULTS TO WEB3FORMS
+    //
+    const formData = new FormData();
+    formData.append("access_key", "001de0f4-2ade-44b4-8915-9ef482cda1da");
+    formData.append("subject", `${data.title} Submission`);
+    formData.append("Student Name", studentName);
+    formData.append("Score", `${correct} / ${total}`);
+    formData.append("Details", answers.join("\n\n"));
+
+    try {
+        await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
+
+        alert("Submission sent. Thank you!");
+    } catch (err) {
+        alert("Error sending your submission. Please tell your teacher.");
+    }
+}
 
             // True/False
             if (section.type === "tf") {
