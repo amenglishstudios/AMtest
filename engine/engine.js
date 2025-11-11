@@ -1,6 +1,6 @@
-/* -------------------------------------------------------------
-   LOAD TEST DATA
-------------------------------------------------------------- */
+// -------------------------------------------------------------
+// LOAD TEST DATA
+// -------------------------------------------------------------
 async function loadTest() {
     const path = window.TEST_PATH;
     const response = await fetch(path);
@@ -10,10 +10,9 @@ async function loadTest() {
 }
 document.addEventListener("DOMContentLoaded", loadTest);
 
-
-/* -------------------------------------------------------------
-   RENDER TEST
-------------------------------------------------------------- */
+// -------------------------------------------------------------
+// RENDER TEST
+// -------------------------------------------------------------
 function renderTest() {
     const data = window.TESTDATA;
     const app = document.getElementById("app");
@@ -24,36 +23,33 @@ function renderTest() {
 
         html += `<h2 class="section-title">${section.instructions || section.title || ""}</h2>`;
 
-        /* ---------------------------------------------------------
-           SAFE PASSAGE RENDERING (FIXED)
-           No HTML from JSON ever enters a template literal.
-        --------------------------------------------------------- */
+        // ---- PASSAGE SUPPORTS FULL HTML ----
         if (section.passage) {
-            const passageId = `passage_${sectionIndex}_${Math.random().toString(36).slice(2)}`;
+            const passageId = `passage_${sectionIndex}`;
             html += `<div class="passage" id="${passageId}"></div>`;
 
-            // Defer HTML injection until after template literal is closed
-            setTimeout(() => {
-                const container = document.getElementById(passageId);
+            // Defer DOM insertion to ensure container exists
+            Promise.resolve().then(() => {
+                const el = document.getElementById(passageId);
+                if (!el) return;
 
-                if (!container) return;
-
+                // String passage: may contain HTML
                 if (typeof section.passage === "string") {
-                    container.innerHTML = section.passage;
-                } else {
-                    // Passage with labeled paragraphs (A, B, C…)
+                    el.innerHTML = section.passage;
+                }
+
+                // Object passage with labeled sections (A, B, C…)
+                else if (typeof section.passage === "object") {
                     let inner = "";
                     Object.entries(section.passage).forEach(([label, text]) => {
                         inner += `<p><b>${label}:</b> ${text}</p>`;
                     });
-                    container.innerHTML = inner;
+                    el.innerHTML = inner;
                 }
             });
         }
 
-        /* ---------------------------------------------------------
-           TRUE / FALSE
-        --------------------------------------------------------- */
+        // ---- TRUE/FALSE ----
         if (section.type === "tf") {
             section.items.forEach((item, i) => {
                 html += `
@@ -68,9 +64,7 @@ function renderTest() {
             });
         }
 
-        /* ---------------------------------------------------------
-           MULTIPLE CHOICE
-        --------------------------------------------------------- */
+        // ---- MULTIPLE CHOICE ----
         if (section.type === "mc") {
             section.items.forEach((item, i) => {
                 html += `
@@ -79,16 +73,16 @@ function renderTest() {
                     <select id="q_mc_${sectionIndex}_${i}">
                         <option value="">---</option>
                         ${item.options
-                            .map((o, idx) => `<option value="${String.fromCharCode(65 + idx)}">${o}</option>`)
+                            .map((o, idx) =>
+                                `<option value="${String.fromCharCode(65 + idx)}">${o}</option>`
+                            )
                             .join("")}
                     </select>
                 </div>`;
             });
         }
 
-        /* ---------------------------------------------------------
-           SEQUENCE
-        --------------------------------------------------------- */
+        // ---- SEQUENCE ----
         if (section.type === "sequence") {
             section.items.forEach((item, i) => {
                 html += `
@@ -99,9 +93,7 @@ function renderTest() {
             });
         }
 
-        /* ---------------------------------------------------------
-           MATCHING (MA)
-        --------------------------------------------------------- */
+        // ---- MATCHING (MA) ----
         if (section.type === "ma") {
             section.items.forEach((item, i) => {
                 html += `
@@ -119,9 +111,7 @@ function renderTest() {
             });
         }
 
-        /* ---------------------------------------------------------
-           CLOZE
-        --------------------------------------------------------- */
+        // ---- CLOZE ----
         if (section.type === "cloze") {
             section.items.forEach((item, i) => {
                 html += `
@@ -136,13 +126,13 @@ function renderTest() {
 
     html += `<button class="submit-btn" onclick="gradeTest()">Submit Test</button>`;
     html += `<div id="scorebox" class="score-box"></div>`;
+
     app.innerHTML = html;
 }
 
-
-/* -------------------------------------------------------------
-   GRADE TEST
-------------------------------------------------------------- */
+// -------------------------------------------------------------
+// GRADE TEST
+// -------------------------------------------------------------
 function gradeTest() {
     const data = window.TESTDATA;
 
@@ -153,36 +143,41 @@ function gradeTest() {
         section.items.forEach((item, i) => {
             total++;
 
-            // TRUE / FALSE
+            // True/False
             if (section.type === "tf") {
                 const user = document.getElementById(`q_tf_${sectionIndex}_${i}`).value;
                 if (user === item.answer) correct++;
             }
 
-            // MULTIPLE CHOICE
+            // Multiple choice
             if (section.type === "mc") {
                 const user = document.getElementById(`q_mc_${sectionIndex}_${i}`).value;
                 if (user === item.answer) correct++;
             }
 
-            // SEQUENCE
+            // Sequence
             if (section.type === "sequence") {
-                const user = document.getElementById(`q_seq_${sectionIndex}_${i}`).value.trim().toLowerCase();
+                const user = document
+                    .getElementById(`q_seq_${sectionIndex}_${i}`)
+                    .value.trim()
+                    .toLowerCase();
                 if (user === item.answer.toLowerCase()) correct++;
             }
 
-            // MATCHING
+            // Matching
             if (section.type === "ma") {
                 const user = document.getElementById(`q_ma_${sectionIndex}_${i}`).value;
                 if (user === item.answer) correct++;
             }
 
-            // CLOZE
+            // Cloze
             if (section.type === "cloze") {
-                const user = document.getElementById(`q_cloze_${sectionIndex}_${i}`).value.trim().toLowerCase();
+                const user = document
+                    .getElementById(`q_cloze_${sectionIndex}_${i}`)
+                    .value.trim()
+                    .toLowerCase();
                 if (user === item.answer.toLowerCase()) correct++;
             }
-
         });
     });
 
