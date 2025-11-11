@@ -8,9 +8,12 @@
 <div id="app"></div>
 
 <script>
+    // Must be declared BEFORE engine.js loads
     window.TEST_PATH = "testdata.json";
 </script>
 
-<script src="../../engine/engine.js"></script>
+<!-- Load engine with defer to ensure startup order -->
+<script src="../../engine/engine.js" defer></script>
+
 </body>
 </html>
