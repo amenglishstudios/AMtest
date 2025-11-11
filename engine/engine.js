@@ -1,6 +1,6 @@
-// -------------------------------------------------------------
-// LOAD TEST DATA
-// -------------------------------------------------------------
+/* -------------------------------------------------------------
+   LOAD TEST DATA
+------------------------------------------------------------- */
 async function loadTest() {
     const path = window.TEST_PATH;
     const response = await fetch(path);
@@ -10,50 +10,56 @@ async function loadTest() {
 }
 document.addEventListener("DOMContentLoaded", loadTest);
 
-// -------------------------------------------------------------
-// RENDER TEST
-// -------------------------------------------------------------
+
+/* -------------------------------------------------------------
+   RENDER TEST
+------------------------------------------------------------- */
 function renderTest() {
     const data = window.TESTDATA;
     const app = document.getElementById("app");
 
     let html = `<h1>${data.title}</h1>`;
 
-    data.sections.forEach(section => {
+    data.sections.forEach((section, sectionIndex) => {
 
         html += `<h2 class="section-title">${section.instructions || section.title || ""}</h2>`;
 
-       // Render passage — supports full HTML formatting
-if (section.passage) {
-    html += `<div class="passage">`;
+        /* ---------------------------------------------------------
+           SAFE PASSAGE RENDERING (FIXED)
+           No HTML from JSON ever enters a template literal.
+        --------------------------------------------------------- */
+        if (section.passage) {
+            const passageId = `passage_${sectionIndex}_${Math.random().toString(36).slice(2)}`;
+            html += `<div class="passage" id="${passageId}"></div>`;
 
-    if (typeof section.passage === "string") {
-        // Detect if passage contains HTML tags
-        const containsHTML = /<\/?[a-z][\s\S]*>/i.test(section.passage);
+            // Defer HTML injection until after template literal is closed
+            setTimeout(() => {
+                const container = document.getElementById(passageId);
 
-        if (containsHTML) {
-            html += section.passage;  // raw HTML allowed
-        } else {
-            html += section.passage.replace(/\n/g, "<br>");
+                if (!container) return;
+
+                if (typeof section.passage === "string") {
+                    container.innerHTML = section.passage;
+                } else {
+                    // Passage with labeled paragraphs (A, B, C…)
+                    let inner = "";
+                    Object.entries(section.passage).forEach(([label, text]) => {
+                        inner += `<p><b>${label}:</b> ${text}</p>`;
+                    });
+                    container.innerHTML = inner;
+                }
+            });
         }
-    } else {
-        // Passage with labeled subsections (A, B, C…)
-        Object.entries(section.passage).forEach(([label, text]) => {
-            const containsHTML = /<\/?[a-z][\s\S]*>/i.test(text);
-            html += `<p><b>${label}:</b> ${containsHTML ? text : text.replace(/\n/g, "<br>")}</p>`;
-        });
-    }
 
-    html += `</div>`;
-}
-
-        // True/False
+        /* ---------------------------------------------------------
+           TRUE / FALSE
+        --------------------------------------------------------- */
         if (section.type === "tf") {
             section.items.forEach((item, i) => {
                 html += `
                 <div class="question">
                     <div class="question-number">${i + 1}. ${item.q}</div>
-                    <select id="q_tf_${i}">
+                    <select id="q_tf_${sectionIndex}_${i}">
                         <option value="">---</option>
                         <option value="T">True</option>
                         <option value="F">False</option>
@@ -62,38 +68,46 @@ if (section.passage) {
             });
         }
 
-        // Multiple Choice
+        /* ---------------------------------------------------------
+           MULTIPLE CHOICE
+        --------------------------------------------------------- */
         if (section.type === "mc") {
             section.items.forEach((item, i) => {
                 html += `
                 <div class="question">
                     <div class="question-number">${i + 1}. ${item.q}</div>
-                    <select id="q_mc_${i}">
+                    <select id="q_mc_${sectionIndex}_${i}">
                         <option value="">---</option>
-                        ${item.options.map((o, idx) => `<option value="${String.fromCharCode(65+idx)}">${o}</option>`).join("")}
+                        ${item.options
+                            .map((o, idx) => `<option value="${String.fromCharCode(65 + idx)}">${o}</option>`)
+                            .join("")}
                     </select>
                 </div>`;
             });
         }
 
-        // Sequence
+        /* ---------------------------------------------------------
+           SEQUENCE
+        --------------------------------------------------------- */
         if (section.type === "sequence") {
             section.items.forEach((item, i) => {
                 html += `
                 <div class="question">
                     <div class="question-number">${i + 1}. ${item.q}</div>
-                    <input type="text" id="q_seq_${i}">
+                    <input type="text" id="q_seq_${sectionIndex}_${i}">
                 </div>`;
             });
         }
 
-        // Matching (MA)
+        /* ---------------------------------------------------------
+           MATCHING (MA)
+        --------------------------------------------------------- */
         if (section.type === "ma") {
             section.items.forEach((item, i) => {
                 html += `
                 <div class="question">
                     <div class="question-number">${i + 1}. ${item.q}</div>
-                    <select id="q_ma_${i}">
+                    <select id="q_ma_${sectionIndex}_${i}">
                         <option value="">---</option>
                         <option value="A">A</option>
                         <option value="B">B</option>
@@ -105,13 +119,15 @@ if (section.passage) {
             });
         }
 
-        // Cloze
+        /* ---------------------------------------------------------
+           CLOZE
+        --------------------------------------------------------- */
         if (section.type === "cloze") {
             section.items.forEach((item, i) => {
                 html += `
                 <div class="question">
                     <div class="question-number">${i + 1}. ${item.q}</div>
-                    <input type="text" id="q_cloze_${i}">
+                    <input type="text" id="q_cloze_${sectionIndex}_${i}">
                 </div>`;
             });
         }
@@ -120,50 +136,50 @@ if (section.passage) {
 
     html += `<button class="submit-btn" onclick="gradeTest()">Submit Test</button>`;
     html += `<div id="scorebox" class="score-box"></div>`;
-
     app.innerHTML = html;
 }
 
-// -------------------------------------------------------------
-// GRADE TEST
-// -------------------------------------------------------------
+
+/* -------------------------------------------------------------
+   GRADE TEST
+------------------------------------------------------------- */
 function gradeTest() {
     const data = window.TESTDATA;
 
     let correct = 0;
     let total = 0;
 
-    data.sections.forEach(section => {
+    data.sections.forEach((section, sectionIndex) => {
         section.items.forEach((item, i) => {
             total++;
 
-            // True/False
+            // TRUE / FALSE
             if (section.type === "tf") {
-                const user = document.getElementById(`q_tf_${i}`).value;
+                const user = document.getElementById(`q_tf_${sectionIndex}_${i}`).value;
                 if (user === item.answer) correct++;
             }
 
-            // MC
+            // MULTIPLE CHOICE
             if (section.type === "mc") {
-                const user = document.getElementById(`q_mc_${i}`).value;
+                const user = document.getElementById(`q_mc_${sectionIndex}_${i}`).value;
                 if (user === item.answer) correct++;
             }
 
-            // Sequence
+            // SEQUENCE
             if (section.type === "sequence") {
-                const user = document.getElementById(`q_seq_${i}`).value.trim().toLowerCase();
+                const user = document.getElementById(`q_seq_${sectionIndex}_${i}`).value.trim().toLowerCase();
                 if (user === item.answer.toLowerCase()) correct++;
             }
 
-            // Matching
+            // MATCHING
             if (section.type === "ma") {
-                const user = document.getElementById(`q_ma_${i}`).value;
+                const user = document.getElementById(`q_ma_${sectionIndex}_${i}`).value;
                 if (user === item.answer) correct++;
             }
 
-            // Cloze
+            // CLOZE
             if (section.type === "cloze") {
-                const user = document.getElementById(`q_cloze_${i}`).value.trim().toLowerCase();
+                const user = document.getElementById(`q_cloze_${sectionIndex}_${i}`).value.trim().toLowerCase();
                 if (user === item.answer.toLowerCase()) correct++;
             }
 
