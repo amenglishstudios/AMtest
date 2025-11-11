@@ -23,16 +23,30 @@ function renderTest() {
 
         html += `<h2 class="section-title">${section.instructions || section.title || ""}</h2>`;
 
-        if (section.passage) {
-            if (typeof section.passage === "string") {
-                html += `<div class="passage">${section.passage.replace(/\n/g, "<br>")}</div>`;
-            } else {
-                html += `<div class="passage">`;
-                Object.entries(section.passage).forEach(([label, text]) => {
-                    html += `<p><b>${label}:</b> ${text}</p>`;
-                });
-                html += `</div>`;
-            }
+       // Render passage — supports full HTML formatting
+if (section.passage) {
+    html += `<div class="passage">`;
+
+    if (typeof section.passage === "string") {
+        // Detect if passage contains HTML tags
+        const containsHTML = /<\/?[a-z][\s\S]*>/i.test(section.passage);
+
+        if (containsHTML) {
+            html += section.passage;  // raw HTML allowed
+        } else {
+            html += section.passage.replace(/\n/g, "<br>");
+        }
+    } else {
+        // Passage with labeled subsections (A, B, C…)
+        Object.entries(section.passage).forEach(([label, text]) => {
+            const containsHTML = /<\/?[a-z][\s\S]*>/i.test(text);
+            html += `<p><b>${label}:</b> ${containsHTML ? text : text.replace(/\n/g, "<br>")}</p>`;
+        });
+    }
+
+    html += `</div>`;
+}
+
         }
 
         // True/False
