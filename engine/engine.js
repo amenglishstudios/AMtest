@@ -47,8 +47,6 @@ if (section.passage) {
     html += `</div>`;
 }
 
-        }
-
         // True/False
         if (section.type === "tf") {
             section.items.forEach((item, i) => {
