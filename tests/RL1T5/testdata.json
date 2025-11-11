@@ -1,14 +1,10 @@
 {
   "title": "Reading Level 1 Test 5",
-
   "sections": [
-
     {
       "type": "tf",
       "instructions": "DIRECTIONS: Read each statement and decide if it is True or False according to the reading passage.",
-
-      "passage": "<h2>Reading Comprehension Review</h2>\n\n<h3>Preserving the Past</h3>\n\n<p>Every month, people worldwide upload about 6 billion photos to the Internet. Photography is now so common, it is easy to forget that photographs — and the memories they hold — can be very precious.</p>\n\n<h4>Memory Archive</h4>\n<p>In a cold, windowless basement in Washington D.C., there is a man who knows the real value of a photograph. Since 1983, Bill Bonner has looked after National Geographic’s photo archive. The archive holds around 8 million prints — many over 100 years old.</p>\n\n<p>In his long career, Bonner has looked at hundreds of thousands of photos. He believes each image holds a memory. Some record moments in history; others show “people like us, just doing our thing, living our life.” Even when forgotten by the outside world, these pictures still tell us much about the past.</p>\n\n<h4>Images From the Past</h4>\n<p>When the archive’s earliest photos were taken, photography was difficult and expensive. Photographers needed special equipment and chemicals to develop pictures. Cameras were large and heavy — some weighed 20 pounds (9 kilos) or more. Early explorers used these massive cameras to photograph people and places most people had never seen.</p>\n\n<p>Photography expeditions took months or even years. “They dedicated their lives to this,” Bonner says. Many images are fragile, and he feels responsible for preserving them for people now and in the future. For Bonner, these figures from the distant past are almost like ancestors. “It’s like opening your grandparents’ family album for the first time.”</p>\n\n<small>\n<p><sup>1</sup> archive: a place that stores historical materials</p>\n<p><sup>2</sup> develop: to make a picture from film using special chemicals</p>\n<p><sup>3</sup> ancestor: a relative who lived long ago</p>\n</small>",
-
+      "passage": "<h2>Reading Comprehension Review</h2>\n<h3>Preserving the Past</h3>\n<p>Every month, people worldwide upload about 6 billion photos to the Internet. Photography is now so common, it is easy to forget that photographs — and the memories they hold — can be very precious.</p>\n<h4>Memory Archive</h4>\n<p>In a cold, windowless basement in Washington D.C., there is a man who knows the real value of a photograph. Since 1983, Bill Bonner has looked after National Geographic’s photo archive. The archive holds around 8 million prints — many over 100 years old.</p>\n<p>In his long career, Bonner has looked at hundreds of thousands of photos. He believes each image holds a memory. Some record moments in history; others show “people like us, just doing our thing, living our life.” Even when forgotten by the outside world, these pictures still tell us much about the past.</p>\n<h4>Images From the Past</h4>\n<p>When the archive’s earliest photos were taken, photography was difficult and expensive. Photographers needed special equipment and chemicals to develop pictures. Cameras were large and heavy — some weighed 20 pounds (9 kilos) or more. Early explorers used these massive cameras to photograph people and places most people had never seen.</p>\n<p>Photography expeditions took months or even years. “They dedicated their lives to this,” Bonner says. Many images are fragile, and he feels responsible for preserving them for people now and in the future. For Bonner, these figures from the distant past are almost like ancestors. “It’s like opening your grandparents’ family album for the first time.”</p>\n<small><p><sup>1</sup> archive: a place that stores historical materials</p>\n<p><sup>2</sup> develop: to make a picture from film using special chemicals</p>\n<p><sup>3</sup> ancestor: a relative who lived long ago</p></small>",
       "items": [
         { "q": "People around the world take about 6 billion photos every month.", "answer": "T" },
         { "q": "Because photographs are so common today, people don't realize how important they can be.", "answer": "T" },
@@ -23,9 +19,7 @@
     {
       "type": "mc",
       "instructions": "DIRECTIONS: Read the passage and answer the questions.",
-
-      "passage": "<h2>Memory and the Brain</h2>\n\n<p>There is a 41-year-old woman known as “AJ,” who remembers almost every day of her life since age 11. There is an 85-year-old man known as “EP,” who remembers only his most recent thought.</p>\n\n<p>AJ remembers dates, events, weather, emotions — almost everything. Her ability is called <i>hyperthymestic syndrome</i>.</p>\n\n<p>EP cannot make new memories. A virus in 1960 destroyed the medial temporal lobes in his brain, including the hippocampus. He remembers his childhood clearly, but nothing after 1960.</p>",
-
+      "passage": "<h2>Memory and the Brain</h2>\n<p>There is a 41-year-old woman known as “AJ,” who remembers almost every day of her life since age 11. There is an 85-year-old man known as “EP,” who remembers only his most recent thought.</p>\n<p>AJ remembers dates, events, weather, emotions — almost everything. Her ability is called <i>hyperthymestic syndrome</i>.</p>\n<p>EP cannot make new memories. A virus in 1960 destroyed the medial temporal lobes in his brain, including the hippocampus. He remembers his childhood clearly, but nothing after 1960.</p>",
       "items": [
         {
           "q": "The author mentions specific dates in paragraph 2 in order to...",
@@ -94,9 +88,7 @@
     {
       "type": "sequence",
       "instructions": "DIRECTIONS: Read the passage and write the 4 approximate-number expressions in the order they appear.",
-
-      "passage": "<h2>Selfie Statistics</h2>\n\n<p>An article in <i>Time</i> magazine listed the places where people take the most selfies. Makati City, in the Philippines, has about 1.5 million people and nearly 260 selfies per 100,000 persons.</p>\n\n<p>Manhattan, in New York City, has just under 400,000 people. In Manhattan, people take approximately 200 selfies per 100,000 residents.</p>",
-
+      "passage": "<h2>Selfie Statistics</h2>\n<p>An article in <i>Time</i> magazine listed the places where people take the most selfies. Makati City, in the Philippines, has about 1.5 million people and nearly 260 selfies per 100,000 persons.</p>\n<p>Manhattan, in New York City, has just under 400,000 people. In Manhattan, people take approximately 200 selfies per 100,000 residents.</p>",
       "items": [
         { "q": "#1", "answer": "about 1.5 million" },
         { "q": "#2", "answer": "nearly 260" },
@@ -108,15 +100,13 @@
     {
       "type": "ma",
       "instructions": "DIRECTIONS: Match each question with the paragraph (A–E) where the answer is found.",
-
       "passage": {
-        "A": "<h4>Project Description</h4><p>The One Second Every Day project involves recording one second of video every day of a person’s life.</p>",
-        "B": "<h4>Why He Began</h4><p>Cesar Kuriyama began the project because he once forgot an important event and wanted a way to remember each day.</p>",
-        "C": "<h4>Lifetime Length</h4><p>If he continues the project for his entire life, the final video will be several hours long.</p>",
-        "D": "<h4>Choosing the Second</h4><p>Some days are difficult to capture because many moments seem meaningful, making the choice challenging.</p>",
-        "E": "<h4>Recording Bad Days</h4><p>He also records difficult experiences, including family tragedies, because they are part of life and should be remembered.</p>"
+        "A": "<h4>Paragraph A</h4><p>Describes the One Second Every Day project.</p>",
+        "B": "<h4>Paragraph B</h4><p>Explains why he began the project and the moment he forgot.</p>",
+        "C": "<h4>Paragraph C</h4><p>Explains how long the final video will be over a lifetime.</p>",
+        "D": "<h4>Paragraph D</h4><p>Explains why choosing one second is sometimes difficult.</p>",
+        "E": "<h4>Paragraph E</h4><p>Explains why he records bad days and tragedies.</p>"
       },
-
       "items": [
         { "q": "Why did Cesar Kuriyama begin his project?", "answer": "B" },
         { "q": "Why will he not forget again?", "answer": "B" },
@@ -132,7 +122,6 @@
     {
       "type": "cloze",
       "instructions": "DIRECTIONS: Complete the sentences with words from the box.",
-
       "wordbank": [
         "look after",
         "cameras",
@@ -143,7 +132,6 @@
         "precious",
         "record"
       ],
-
       "items": [
         { "q": "Look ___ my dog while I'm on vacation.", "answer": "look after" },
         { "q": "Digital ___ don’t require film.", "answer": "cameras" },
@@ -155,6 +143,5 @@
         { "q": "Photographs and videos help people ___ their family histories.", "answer": "record" }
       ]
     }
-
   ]
 }
