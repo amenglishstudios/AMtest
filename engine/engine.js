@@ -17,7 +17,14 @@ function renderTest() {
     const data = window.TESTDATA;
     const app = document.getElementById("app");
 
-    let html = `<h1>${data.title}</h1>`;
+    // Student Name Field
+html += `
+    <div class="question">
+        <div class="question-number"><b>Your Name:</b></div>
+        <input type="text" id="student_name" placeholder="Enter your full name">
+    </div>
+`;
+
 
     data.sections.forEach((section, sectionIndex) => {
 
