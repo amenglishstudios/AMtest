@@ -1,239 +1,297 @@
-// -------------------------------------------------------------
+/* AMtest engine.js — render, grade, and email via Web3Forms */
+
+// ==============================
+// CONFIG
+// ==============================
+const WEB3FORMS_ACCESS_KEY = "001de0f4-2ade-44b4-8915-9ef482cda1da"; // your token
+const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
+
+// ==============================
 // LOAD TEST DATA
-// -------------------------------------------------------------
+// ==============================
 async function loadTest() {
+  try {
     const path = window.TEST_PATH;
-    const response = await fetch(path);
+    const response = await fetch(path, { cache: "no-store" });
     const data = await response.json();
     window.TESTDATA = data;
     renderTest();
+  } catch (err) {
+    const app = document.getElementById("app");
+    if (app) app.innerHTML = `<div style="color:red">Failed to load test data: ${String(err)}</div>`;
+  }
 }
-
 document.addEventListener("DOMContentLoaded", loadTest);
 
-// -------------------------------------------------------------
+// ==============================
 // RENDER TEST
-// -------------------------------------------------------------
+// ==============================
 function renderTest() {
-    const data = window.TESTDATA;
-    const app = document.getElementById("app");
+  const data = window.TESTDATA;
+  const app = document.getElementById("app");
+  if (!data || !app) return;
 
-    let html = `<h1>${data.title}</h1>`;
+  let html = "";
+  html += `<h1>${escapeHTML(data.title || "Untitled Test")}</h1>`;
 
-    // Student Name field
-    html += `
-        <div class="question">
-            <div class="question-number"><b>Your Name:</b></div>
-            <input type="text" id="student_name" placeholder="Enter your full name">
-        </div>
-    `;
+  // Student name box
+  html += `
+    <div class="student-block" style="margin: 12px 0 24px 0;">
+      <label for="student_name" style="font-weight:600; margin-right:8px;">Student Name:</label>
+      <input id="student_name" type="text" placeholder="First Last" style="padding:6px; font-size:16px; min-width:260px;">
+    </div>
+  `;
 
-    data.sections.forEach((section, sectionIndex) => {
+  // Sections
+  (data.sections || []).forEach((section, sIdx) => {
+    const heading = section.instructions || section.title || "";
+    if (heading) {
+      html += `<h2 class="section-title">${escapeHTML(heading)}</h2>`;
+    }
 
-        html += `<h2 class="section-title">${section.instructions || section.title || ""}</h2>`;
+    // Passage (string with or without HTML, OR object with A/B/C… labeled parts)
+    if (section.passage) {
+      html += `<div class="passage">`;
+      if (typeof section.passage === "string") {
+        const containsHTML = /<\/?[a-z][\s\S]*>/i.test(section.passage);
+        html += containsHTML ? section.passage : escapeHTML(section.passage).replace(/\n/g, "<br>");
+      } else {
+        // object map like { A: "text", B: "text" }
+        Object.entries(section.passage).forEach(([label, text]) => {
+          const containsHTML = /<\/?[a-z][\s\S]*>/i.test(text);
+          const safe = containsHTML ? text : escapeHTML(String(text)).replace(/\n/g, "<br>");
+          html += `<p><b>${escapeHTML(label)}:</b> ${safe}</p>`;
+        });
+      }
+      html += `</div>`;
+    }
 
-        // Render passage (supports full HTML or object with A/B/C subsections)
-        if (section.passage) {
-            html += `<div class="passage">`;
+    // Items
+    const items = section.items || [];
+    if (section.type === "tf") {
+      items.forEach((item, i) => {
+        html += `
+          <div class="question">
+            <div class="question-number">${i + 1}. ${escapeHTML(item.q || "")}</div>
+            <select id="q_tf_${sIdx}_${i}">
+              <option value="">---</option>
+              <option value="T">True</option>
+              <option value="F">False</option>
+            </select>
+          </div>
+        `;
+      });
+    } else if (section.type === "mc") {
+      items.forEach((item, i) => {
+        const opts = (item.options || []).map((o, idx) => {
+          const letter = String.fromCharCode(65 + idx); // A, B, C...
+          return `<option value="${letter}">${escapeHTML(String(o))}</option>`;
+        }).join("");
+        html += `
+          <div class="question">
+            <div class="question-number">${i + 1}. ${escapeHTML(item.q || "")}</div>
+            <select id="q_mc_${sIdx}_${i}">
+              <option value="">---</option>
+              ${opts}
+            </select>
+          </div>
+        `;
+      });
+    } else if (section.type === "sequence") {
+      items.forEach((item, i) => {
+        html += `
+          <div class="question">
+            <div class="question-number">${i + 1}. ${escapeHTML(item.q || "")}</div>
+            <input type="text" id="q_seq_${sIdx}_${i}">
+          </div>
+        `;
+      });
+    } else if (section.type === "ma") {
+      items.forEach((item, i) => {
+        html += `
+          <div class="question">
+            <div class="question-number">${i + 1}. ${escapeHTML(item.q || "")}</div>
+            <select id="q_ma_${sIdx}_${i}">
+              <option value="">---</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="E">E</option>
+            </select>
+          </div>
+        `;
+      });
+    } else if (section.type === "cloze") {
+      items.forEach((item, i) => {
+        html += `
+          <div class="question">
+            <div class="question-number">${i + 1}. ${escapeHTML(item.q || "")}</div>
+            <input type="text" id="q_cloze_${sIdx}_${i}">
+          </div>
+        `;
+      });
+    }
+  });
 
-            if (typeof section.passage === "string") {
-                const containsHTML = /<\/?[a-z][\s\S]*>/i.test(section.passage);
-                html += containsHTML
-                    ? section.passage
-                    : section.passage.replace(/\n/g, "<br>");
-            } else {
-                Object.entries(section.passage).forEach(([label, text]) => {
-                    const containsHTML = /<\/?[a-z][\s\S]*>/i.test(text);
-                    html += `<p><b>${label}:</b> ${
-                        containsHTML ? text : text.replace(/\n/g, "<br>")
-                    }</p>`;
-                });
-            }
+  // Submit / Score
+  html += `
+    <button class="submit-btn" id="submit_btn">Submit Test</button>
+    <div id="scorebox" class="score-box"></div>
+    <div id="sendstatus" style="margin-top:12px; font-size:14px;"></div>
+  `;
 
-            html += `</div>`;
-        }
+  app.innerHTML = html;
 
-        // ---------------------------------------------------------
-        // TRUE/FALSE
-        // ---------------------------------------------------------
-        if (section.type === "tf") {
-            section.items.forEach((item, i) => {
-                html += `
-                <div class="question">
-                    <div class="question-number">${i + 1}. ${item.q}</div>
-                    <select id="q_tf_${sectionIndex}_${i}">
-                        <option value="">---</option>
-                        <option value="T">True</option>
-                        <option value="F">False</option>
-                    </select>
-                </div>`;
-            });
-        }
-
-        // ---------------------------------------------------------
-        // MULTIPLE CHOICE
-        // ---------------------------------------------------------
-        if (section.type === "mc") {
-            section.items.forEach((item, i) => {
-                const opts = item.options
-                    .map(
-                        (o, idx) =>
-                            `<option value="${String.fromCharCode(65 + idx)}">${o}</option>`
-                    )
-                    .join("");
-
-                html += `
-                <div class="question">
-                    <div class="question-number">${i + 1}. ${item.q}</div>
-                    <select id="q_mc_${sectionIndex}_${i}">
-                        <option value="">---</option>
-                        ${opts}
-                    </select>
-                </div>`;
-            });
-        }
-
-        // ---------------------------------------------------------
-        // SEQUENCE
-        // ---------------------------------------------------------
-        if (section.type === "sequence") {
-            section.items.forEach((item, i) => {
-                html += `
-                <div class="question">
-                    <div class="question-number">${i + 1}. ${item.q}</div>
-                    <input type="text" id="q_seq_${sectionIndex}_${i}">
-                </div>`;
-            });
-        }
-
-        // ---------------------------------------------------------
-        // MATCHING
-        // ---------------------------------------------------------
-        if (section.type === "ma") {
-            section.items.forEach((item, i) => {
-                html += `
-                <div class="question">
-                    <div class="question-number">${i + 1}. ${item.q}</div>
-                    <select id="q_ma_${sectionIndex}_${i}">
-                        <option value="">---</option>
-                        <option value="A">A</option>
-                        <option value="B">B</option>
-                        <option value="C">C</option>
-                        <option value="D">D</option>
-                        <option value="E">E</option>
-                    </select>
-                </div>`;
-            });
-        }
-
-        // ---------------------------------------------------------
-        // CLOZE
-        // ---------------------------------------------------------
-        if (section.type === "cloze") {
-            section.items.forEach((item, i) => {
-                html += `
-                <div class="question">
-                    <div class="question-number">${i + 1}. ${item.q}</div>
-                    <input type="text" id="q_cloze_${sectionIndex}_${i}">
-                </div>`;
-            });
-        }
-    });
-
-    html += `<button class="submit-btn" onclick="gradeTest()">Submit Test</button>`;
-    html += `<div id="scorebox" class="score-box"></div>`;
-
-    app.innerHTML = html;
+  const btn = document.getElementById("submit_btn");
+  btn.addEventListener("click", async () => {
+    const result = gradeTest();
+    showScore(result);
+    await sendResults(result);
+  });
 }
 
-// -------------------------------------------------------------
-// GRADE + EMAIL SUBMISSION
-// -------------------------------------------------------------
-async function gradeTest() {
-    const data = window.TESTDATA;
-    let correct = 0;
-    let total = 0;
-    let answers = [];
+// ==============================
+// GRADE TEST
+// ==============================
+function gradeTest() {
+  const data = window.TESTDATA || { sections: [] };
+  const studentName = (document.getElementById("student_name")?.value || "").trim();
 
-    const studentName =
-        document.getElementById("student_name").value.trim() ||
-        "No name provided";
+  let correct = 0;
+  let total = 0;
 
-    data.sections.forEach((section, sIndex) => {
-        section.items.forEach((item, i) => {
-            total++;
-            let userAnswer = "";
-            let correctAnswer = item.answer;
+  // Collect per-question details (optional but helpful)
+  const details = [];
 
-            // T/F
-            if (section.type === "tf") {
-                userAnswer = document.getElementById(
-                    `q_tf_${sIndex}_${i}`
-                ).value;
-                if (userAnswer === correctAnswer) correct++;
-            }
+  (data.sections || []).forEach((section, sIdx) => {
+    const items = section.items || [];
+    items.forEach((item, i) => {
+      total += 1;
 
-            // Multiple Choice
-            if (section.type === "mc") {
-                userAnswer = document.getElementById(
-                    `q_mc_${sIndex}_${i}`
-                ).value;
-                if (userAnswer === correctAnswer) correct++;
-            }
+      let user = "";
+      let isCorrect = false;
 
-            // Sequence
-            if (section.type === "sequence") {
-                userAnswer = document
-                    .getElementById(`q_seq_${sIndex}_${i}`)
-                    .value.trim()
-                    .toLowerCase();
-                if (userAnswer === correctAnswer.toLowerCase()) correct++;
-            }
+      if (section.type === "tf") {
+        user = getVal(`q_tf_${sIdx}_${i}`);
+        isCorrect = user === String(item.answer || "").trim();
+      } else if (section.type === "mc") {
+        user = getVal(`q_mc_${sIdx}_${i}`);
+        isCorrect = user === String(item.answer || "").trim().toUpperCase();
+      } else if (section.type === "sequence") {
+        user = getVal(`q_seq_${sIdx}_${i}`).trim().toLowerCase();
+        const ans = String(item.answer || "").trim().toLowerCase();
+        isCorrect = user === ans;
+      } else if (section.type === "ma") {
+        user = getVal(`q_ma_${sIdx}_${i}`);
+        isCorrect = user === String(item.answer || "").trim().toUpperCase();
+      } else if (section.type === "cloze") {
+        user = getVal(`q_cloze_${sIdx}_${i}`).trim().toLowerCase();
+        const ans = String(item.answer || "").trim().toLowerCase();
+        isCorrect = user === ans;
+      }
 
-            // Matching
-            if (section.type === "ma") {
-                userAnswer = document.getElementById(
-                    `q_ma_${sIndex}_${i}`
-                ).value;
-                if (userAnswer === correctAnswer) correct++;
-            }
+      if (isCorrect) correct += 1;
 
-            // Cloze
-            if (section.type === "cloze") {
-                userAnswer = document
-                    .getElementById(`q_cloze_${sIndex}_${i}`)
-                    .value.trim()
-                    .toLowerCase();
-                if (userAnswer === correctAnswer.toLowerCase()) correct++;
-            }
+      details.push({
+        section: section.type || "",
+        number: i + 1,
+        question: item.q || "",
+        response: user,
+        answer: item.answer || "",
+        correct: isCorrect
+      });
+    });
+  });
 
-            answers.push(
-                `Q${i + 1}: ${item.q}\nStudent: ${
-                    userAnswer || "(blank)"
-                }\nCorrect: ${correctAnswer}\n`
-        });
+  const percent = total > 0 ? Math.round((correct / total) * 100) : 0;
+
+  return {
+    title: window.TESTDATA?.title || "Untitled Test",
+    student_name: studentName,
+    correct,
+    total,
+    percent,
+    details
+  };
+}
+
+function getVal(id) {
+  const el = document.getElementById(id);
+  return el ? String(el.value || "") : "";
+}
+
+function showScore(result) {
+  const sb = document.getElementById("scorebox");
+  if (!sb) return;
+
+  // Require name for clarity, but still display score
+  if (!result.student_name) {
+    sb.innerHTML = `Score: ${result.correct} / ${result.total} (${result.percent}%). <span style="color:#b00">Please enter your name before submitting so your teacher receives your results.</span>`;
+  } else {
+    sb.textContent = `Score: ${result.correct} / ${result.total} (${result.percent}%)`;
+  }
+}
+
+// ==============================
+// SEND RESULTS (Web3Forms)
+// ==============================
+async function sendResults(result) {
+  const status = document.getElementById("sendstatus");
+  if (status) status.textContent = "";
+
+  // If no name, don't email (avoid anonymous noise)
+  if (!result.student_name) {
+    if (status) status.textContent = "Enter your name and click Submit again to send results to your teacher.";
+    return;
+  }
+
+  try {
+    const fd = new FormData();
+    fd.append("access_key", WEB3FORMS_ACCESS_KEY);
+    fd.append("subject", `Student Test Submission — ${result.title}`);
+    fd.append("from_name", "AM English Test");
+    // You can customize where replies go if you want:
+    // fd.append("reply_to", "mdmanning@gbaps.org");
+
+    // Human-readable summary
+    fd.append("student_name", result.student_name);
+    fd.append("test_title", result.title);
+    fd.append("score", `${result.correct} / ${result.total} (${result.percent}%)`);
+
+    // Attach compact JSON of details
+    fd.append("details_json", JSON.stringify(result.details));
+
+    // Optional: a simple text table of responses
+    const lines = result.details.map(d =>
+      `${d.section} Q${d.number}: ${d.correct ? "✓" : "✗"} — resp: "${d.response}" / ans: "${d.answer}"`
+    ).join("\n");
+    fd.append("details_text", lines);
+
+    const res = await fetch(WEB3FORMS_ENDPOINT, {
+      method: "POST",
+      body: fd
     });
 
-    document.getElementById("scorebox").innerHTML = `Score: ${correct} / ${total}`;
-
-    // ---------------------------------------------------------
-    // SEND RESULTS TO WEB3FORMS
-    // ---------------------------------------------------------
-    const formData = new FormData();
-    formData.append("access_key", "001de0f4-2ade-44b4-8915-9ef482cda1da");
-    formData.append("subject", `${data.title} Submission`);
-    formData.append("Student Name", studentName);
-    formData.append("Score", `${correct} / ${total}`);
-    formData.append("Details", answers.join("\n\n"));
-
-    try {
-        await fetch("https://api.web3forms.com/submit", {
-            method: "POST",
-            body: formData
-        });
-
-        alert("Submission sent. Thank you!");
-    } catch (err) {
-        alert("Error sending your submission. Please tell your teacher.");
+    const data = await res.json();
+    if (data && data.success) {
+      if (status) status.textContent = "Results sent to the teacher successfully.";
+    } else {
+      if (status) status.textContent = `Could not send results (Web3Forms): ${data?.message || "Unknown error"}`;
     }
+  } catch (err) {
+    if (status) status.textContent = `Error sending results: ${String(err)}`;
+  }
+}
+
+// ==============================
+// UTILS
+// ==============================
+function escapeHTML(str) {
+  return String(str)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 }
