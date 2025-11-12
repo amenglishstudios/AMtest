@@ -211,7 +211,6 @@ async function gradeTest() {
                 `Q${i + 1}: ${item.q}\nStudent: ${
                     userAnswer || "(blank)"
                 }\nCorrect: ${correctAnswer}\n`
-            );
         });
     });
 
