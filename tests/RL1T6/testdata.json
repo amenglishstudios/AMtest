@@ -2,25 +2,25 @@
   "title": "Reading Level 1 Test 6",
   "sections": [
     {
+      "title": "Reading Comprehension Review",
+      "instructions": "<div style='text-align:center'><b><span style='font-size:14pt'>Living Spaces</span></b></div><br>In many communities around the world, people are finding creative ways to make the most of their resources.<br><br><b>CITY IN A TOWER</b><br><br>The Torre David in Caracas, Venezuela, was designed to be a modern office building. But the project was abandoned when the construction company closed, and the building was never finished. However, local residents saw an opportunity. They began to turn the empty offices into apartments and stores. They painted the entrance and planted trees. As there were no working elevators, residents used taxis to reach the upper floors via the parking garage. Within a few years, 3,000 people were sharing a community that they built themselves. The abandoned tower, says photographer and TED speaker Iwan Baan, turned into &#8220;a living city.&#8221;<br><br><b>RECYCLED HOMES</b><br><br>In Huntsville, Texas, a community is building houses from recycled building materials. How did this start? Local builder and TED speaker Dan Phillips noticed that construction companies traditionally threw away large amounts of unused bricks, wood, and cement when they built homes. Phillips decided to work with local people and homeowners to build houses using these materials. These people are not professional builders, so Phillips teaches them the skills and techniques they need. The houses look different from normal houses. Phillips encourages the homeowners to be creative and make each house look unique.",
       "type": "tf",
-      "instructions": "DIRECTIONS: Read each statement and decide if it is True or False according to the reading passage.",
-      "passage": "<h2>Reading Comprehension Review</h2><h3>Living Spaces</h3><p>In many communities around the world, people are finding creative ways to make the most of their resources.</p><h4>CITY IN A TOWER</h4><p>The Torre David in Caracas, Venezuela, was designed to be a modern office building. But the project was abandoned when the construction company closed, and the building was never finished. However, local residents saw an opportunity. They began to turn the empty offices into apartments and stores. They painted the entrance and planted trees. As there were no working elevators, residents used taxis to reach the upper floors via the parking garage. Within a few years, 3,000 people were sharing a community that they built themselves. The abandoned tower, says photographer and TED speaker Iwan Baan, turned into “a living city.”</p><h4>RECYCLED HOMES</h4><p>In Huntsville, Texas, a community is building houses from recycled building materials. How did this start? Local builder and TED speaker Dan Phillips noticed that construction companies traditionally threw away large amounts of unused bricks, wood, and cement when they built homes. Phillips decided to work with local people and homeowners to build houses using these materials. These people are not professional builders, so Phillips teaches them the skills and techniques they need. The houses look different from normal houses. Phillips encourages the homeowners to be creative and make each house look unique.</p>",
       "items": [
         { "q": "The Torre David served as an office building until it closed.", "answer": "F" },
         { "q": "A construction company turned the Torre David into apartments and shops.", "answer": "F" },
         { "q": "The residents of the Torre David removed nearby trees.", "answer": "F" },
         { "q": "People who live in the Torre David use taxis to get to the higher floors.", "answer": "T" },
         { "q": "Dan Phillips bought building materials from construction companies and gave them to local people to build houses.", "answer": "F" },
-        { "q": "Dan Phillips is a professional builder.", "answer": "F" },
+        { "q": "Dan Phillips is a professional builder.", "answer": "T" },
         { "q": "The houses that people built with the materials from Dan Phillips look quite unusual.", "answer": "T" },
-        { "q": "Dan Philips wants the local people to build houses that all look similar.", "answer": "F" }
+        { "q": "Dan Phillips wants the local people to build houses that all look similar.", "answer": "F" }
       ]
     },
-
     {
+      "title": "Reading Comprehension Extension",
+      "instructions": "<div style='text-align:center'><b><span style='font-size:14pt'>Cargotecture</span></b></div>",
+      "passage": "<b>Paragraph 1<br><br></b>There is an urgent need worldwide for good, affordable housing. More than 800 million people live in urban slums<sup>1</sup>. One possible solution for this problem is through &#8220;cargotecture&#8221;&#8212;using shipping containers to build houses and other structures. There are an estimated 17 million shipping containers moving cargo on ships, trucks, and trains. Around two million, however, sit unused. More goods are imported in shipping containers to some countries than are exported to other parts of the world, and in some cases, it is actually cheaper to build new containers than to ship them back empty. Shipping containers have long been used to provide emergency shelter after disasters, but in recent years, they have also been used to build everything from simple houses to shopping malls to high-rise student dormitories.<br><br><b>Paragraph 2<br><br></b>Shipping containers made of steel or aluminum are made to fit together, so they can be used as building blocks<sup>2</sup> to create all sorts of structures. They are more resistant to hurricanes, tornadoes and earthquakes than ordinary building materials. Recycling used containers as living spaces is environmentally friendly and inexpensive&#8212;they typically cost between US $1,000 and US $2,000 per container. They are fire proof and termite<sup>3</sup> proof. The containers can be converted in a central location, transported, and then assembled on-site, saving time and money. Containers are so versatile<sup>4</sup> that it is up to the architect whether to hide them or expose them, to use them as one part of a building or to design an entire building using them.<br><br><b>Paragraph 3<br><br></b>However, that doesn&#039;t mean they&#039;re perfect: The floors of the containers have often been treated with pesticides and other chemicals that were used to make them safe for transportation, so they have to be thoroughly cleaned and the floors covered. Converting them into usable structures can use a lot of energy. And individual containers are boxy and small. The containers typically come in two lengths, about 14 meters long and around 7 meters long, and are less than 3 meters wide and 3 meters high when insulation and interior walls are added. But architects and designers worldwide have managed to do a lot with them.<br><br><b>Paragraph 4<br><br></b>In the city of Bangalore, architect Kameshwar Rao has designed and built India's first recycled shipping container home. Four recycled shipping containers make up the 90-square-meter house. The containers are stacked in an L shape to allow the air to move through naturally. A wall made from recycled glass bottles brings more light into the hallway. People were unsure how the house would deal with India’s extreme heat. However, Rao and his family report that it’s as cool inside as the usual concrete and cement houses. Unlike usual houses, Rao’s house was completed in just four months, and at around $16,000 was built for less than half of the usual local cost. It could take time for the idea to be accepted by traditionalists, but with his new business, Container Solutions, Rao has made it easier for Indians to build their own shipping container homes.",
       "type": "ma",
-      "instructions": "DIRECTIONS: Read the passage. Complete this outline with phrases (a–g) from the list below.",
-      "passage": "<h2>Cargotecture</h2><h4>Paragraph 1</h4><p>There is an urgent need worldwide for good, affordable housing. More than 800 million people live in urban slums<sup>1</sup>. One possible solution for this problem is through “cargotecture”—using shipping containers to build houses and other structures. There are an estimated 17 million shipping containers moving cargo on ships, trucks, and trains. Around two million, however, sit unused. More goods are imported in shipping containers to some countries than are exported to other parts of the world, and in some cases, it is actually cheaper to build new containers than to ship them back empty. Shipping containers have long been used to provide emergency shelter after disasters, but in recent years, they have also been used to build everything from simple houses to shopping malls to high-rise student dormitories.</p><h4>Paragraph 2</h4><p>Shipping containers made of steel or aluminum are made to fit together, so they can be used as building blocks<sup>2</sup> to create all sorts of structures. They are more resistant to hurricanes, tornadoes and earthquakes than ordinary building materials. Recycling used containers as living spaces is environmentally friendly and inexpensive—they typically cost between US $1,000 and US $2,000 per container. They are fire proof and termite<sup>3</sup> proof. The containers can be converted in a central location, transported, and then assembled on-site, saving time and money. Containers are so versatile<sup>4</sup> that it is up to the architect whether to hide them or expose them, to use them as one part of a building or to design an entire building using them.</p><h4>Paragraph 3</h4><p>However, that doesn’t mean they’re perfect: The floors of the containers have often been treated with pesticides and other chemicals that were used to make them safe for transportation, so they have to be thoroughly cleaned and the floors covered. Converting them into usable structures can use a lot of energy. And individual containers are boxy and small. The containers typically come in two lengths, about 14 meters long and around 7 meters long, and are less than 3 meters wide and 3 meters high when insulation and interior walls are added. But architects and designers worldwide have managed to do a lot with them.</p><h4>Paragraph 4</h4><p>In the city of Bangalore, architect Kameshwar Rao has designed and built India’s first recycled shipping container home. Four recycled shipping containers make up the 90-square meter house. The containers are stacked in an L shape to allow the air to move through naturally. A wall made from recycled glass bottles brings more light into the hallway. People were unsure about how the house would deal with India’s extreme heat. However, Rao and his family report that it’s as cool inside as the usual concrete and cement houses. Unlike usual houses, Rao’s house was completed in just four months, and at around $16,000 was built for less than half of the usual local cost. It could take time for the idea to be accepted by traditionalists, but with his new business, Container Solutions, Rao has made it easier for Indians to build their own shipping container homes.</p>",
       "items": [
         { "q": "(1)", "answer": "B" },
         { "q": "(2)", "answer": "D" },
@@ -31,11 +31,11 @@
         { "q": "(7)", "answer": "E" }
       ]
     },
-
     {
+      "title": "Reading Skills",
+      "instructions": "<b>Building of the Future?</b>",
+      "passage": "What happens when you need a lot more living space, but you can't build skyscrapers? That was the challenge facing architects in Mexico City, where tall buildings are forbidden in order to preserve the city’s cultural heritage. The solution: Build an “Earthscraper.” The Earthscraper is a pyramid-shaped tower built upside-down and under the ground. Still in the planning stage, this innovative building will provide housing, office space, and cultural centers, says architect Emilio Barjau—without affecting the city’s historic downtown area.",
       "type": "cloze",
-      "instructions": "DIRECTIONS: Read the passage then complete the summary chart using the words from the box.",
-      "passage": "<h2>Building of the Future?</h2><p>What happens when you need a lot more living space, but you can’t build skyscrapers? That was the challenge facing architects in Mexico City, where tall buildings are forbidden in order to preserve the city’s cultural heritage. The solution: Build an “Earthscraper.” The Earthscraper is a pyramid-shaped tower built upside-down and under the ground. Still in the planning stage, this innovative building will provide housing, office space, and cultural centers, says architect Emilio Barjau—without affecting the city’s historic downtown area.</p><table border='1' cellpadding='4' cellspacing='0'><tr><td>offices</td><td>Mexico City</td><td>underground</td><td>skyscrapers</td></tr><tr><td>housing</td><td>downtown</td><td>pyramid</td><td>Earthscraper</td></tr></table>",
       "items": [
         { "q": "(1)", "answer": "Earthscraper" },
         { "q": "(2)", "answer": "Mexico City" },
@@ -47,52 +47,30 @@
         { "q": "(8)", "answer": "downtown" }
       ]
     },
-
     {
+      "title": "TED Talk Comprehension",
+      "passage": "<b>Iwan Baan—Ingenious Homes in Unexpected Places</b><br><br>. . . Let’s go now to Africa, to Nigeria, to a community called Makoko, a slum where 150,000 people live just meters above the Lagos Lagoon. While it may appear to be a completely chaotic place, when you see it from above, there seems to be a whole grid of waterways and canals connecting each and every home. From the main dock, people board long wooden canoes which carry them out to their various homes and shops located in the expansive area. When out on the water, it’s clear that life has been completely adapted to this very specific way of living. Even the canoes become variety stores where ladies paddle from house to house, selling anything from toothpaste to fresh fruits. Behind every window and door frame, you’ll see a small child peering back at you, and while Makoko seems to be packed with people, what’s more shocking is actually the amount of children pouring out of every building. The population growth in Nigeria, and especially in these areas like Makoko, are painful reminders of how out of control things really are.<br><br>In Makoko, very few systems and infrastructures exist. Electricity is rigged, and fresh water comes from self-built wells throughout the area. This entire economic model is designed to meet a specific way of living on the water, so fishing and boat-making are common professions . . .",
       "type": "mc",
-      "instructions": "DIRECTIONS: Read the excerpt from Iwan Baan’s TED Talk and answer the questions.",
-      "passage": "<h2>Iwan Baan — Ingenious Homes in Unexpected Places</h2><p>… Let’s go now to Africa, to Nigeria, to a community called Makoko, a slum where 150,000 people live just meters above the Lagos Lagoon. While it may appear to be a completely chaotic place, when you see it from above, there seems to be a whole grid of waterways and canals connecting each and every home. From the main dock, people board long wooden canoes which carry them out to their various homes and shops located in the expansive area. When out on the water, it’s clear that life has been completely adapted to this very specific way of living. Even the canoes become variety stores where ladies paddle from house to house, selling anything from toothpaste to fresh fruits. Behind every window and door frame, you’ll see a small child peering back at you, and while Makoko seems to be packed with people, what’s more shocking is actually the amount of children pouring out of every building. The population growth in Nigeria, and especially in these areas like Makoko, are painful reminders of how out of control things really are.</p><p>In Makoko, very few systems and infrastructures exist. Electricity is rigged, and freshest water comes from self-built wells throughout the area. This entire economic model is designed to meet a specific way of living on the water, so fishing and boat-making are common professions…</p>",
       "items": [
-        {
-          "q": "The community of Makoko is located…",
-          "options": ["just above a lagoon", "in the center of a bigger city", "next to a river"],
-          "answer": "A"
-        },
-        {
-          "q": "Canoes are used in Makoko both for transportation and as…",
-          "options": ["housing", "stores", "playgrounds"],
-          "answer": "B"
-        },
-        {
-          "q": "The speaker was surprised by the number of…",
-          "options": ["young children", "empty houses", "fresh fruits"],
-          "answer": "A"
-        },
-        {
-          "q": "The community generally gets clean water…",
-          "options": ["by purifying water from the lagoon", "from a nearby town", "by digging its own wells"],
-          "answer": "C"
-        },
-        {
-          "q": "Which of the following is NOT mentioned as a common job in Makoko?",
-          "options": ["teaching", "fishing", "boat-making"],
-          "answer": "A"
-        }
+        { "q": "The community of Makoko is located . . .", "options": ["just above a lagoon", "in the center of a bigger city", "next to a river"], "answer": "A" },
+        { "q": "Canoes are used in Makoko both for transportation and as . . .", "options": ["housing", "stores", "playgrounds"], "answer": "B" },
+        { "q": "The speaker was surprised by the number of . . .", "options": ["young children", "empty houses", "fresh fruits"], "answer": "A" },
+        { "q": "The community generally gets clean water . . .", "options": ["by purifying water from the lagoon", "from a nearby town", "by digging its own wells"], "answer": "C" },
+        { "q": "Which of the following is NOT mentioned as a common job in Makoko?", "options": ["teaching", "fishing", "boat-making"], "answer": "A" }
       ]
     },
-
     {
+      "title": "Vocabulary",
       "type": "cloze",
-      "instructions": "DIRECTIONS: Complete the sentences with the correct word from the box.",
       "items": [
-        { "q": "The ____________________ had to leave the apartment building when the fire alarm went off.", "answer": "residents" },
-        { "q": "The ____________________ industry suffers during a recession because few new houses are built then.", "answer": "construction" },
-        { "q": "My friend is not a ____________________ architect, but he designed his own house.", "answer": "professional" },
-        { "q": "That office building is ____________________. I’ve never seen anything like it.", "answer": "unique" },
-        { "q": "Home Mart sells all sorts of building ____________________: lumber, bricks, glass, concrete, and so on.", "answer": "materials" },
-        { "q": "Her father is a carpenter, and he has taught her some ____________________ for working with wood.", "answer": "techniques" },
-        { "q": "Some ____________________ have laws that control how people’s houses look.", "answer": "communities" },
-        { "q": "His father ____________________ him and his wife to stop renting and to buy a house.", "answer": "encouraged" }
+        { "q": "The __________ had to leave the apartment building when the fire alarm went off.", "answer": "residents" },
+        { "q": "The __________ industry suffers during a recession because few new houses are built then.", "answer": "construction" },
+        { "q": "My friend is not a __________ architect, but he designed his own house.", "answer": "professional" },
+        { "q": "That office building is __________. I’ve never seen anything like it.", "answer": "unique" },
+        { "q": "Home Mart sells all sorts of building __________: lumber, bricks, glass, concrete, and so on.", "answer": "materials" },
+        { "q": "Her father is a carpenter, and he has taught her some __________ for working with wood.", "answer": "techniques" },
+        { "q": "Some __________ have laws that control how people’s houses look.", "answer": "communities" },
+        { "q": "His father __________ him and his wife to stop renting and to buy a house.", "answer": "encouraged" }
       ]
     }
   ]
