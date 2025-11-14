@@ -1,0 +1,276 @@
+{
+  "title": "WL1T6",
+  "sections": [
+    {
+      "type": "cloze",
+      "instructions": "",
+      "passage": "",
+      "items": [
+        {
+          "q": "I wake up at 7 a.m., and the ____________________ (first / finally / later) thing I do is have breakfast.",
+          "answer": "first"
+        },
+        {
+          "q": "____________________ (Next week / Last week / Later week) is going to be busy.",
+          "answer": "Next week"
+        },
+        {
+          "q": "I'm almost finished getting dressed, so I'll be ready ____________________ (in a minute / next / later).",
+          "answer": "in a minute"
+        },
+        {
+          "q": "We're going to Paris ____________________ (then / next year / after that).",
+          "answer": "next year"
+        },
+        {
+          "q": "She'll be twenty years old ____________________ (next Monday / later / then).",
+          "answer": "next Monday"
+        },
+        {
+          "q": "I ____________________ flowers to Annie's party tomorrow. (bring, negative)",
+          "answer": "am not going to bring"
+        },
+        {
+          "q": "We ____________________ the bus downtown when we finish our homework. (take, affirmative)",
+          "answer": "are going to take"
+        },
+        {
+          "q": "She ____________________ the piano as soon as she gets home from school. (practice, affirmative)",
+          "answer": "is going to practice"
+        },
+        {
+          "q": "The weather ____________________ very nice tomorrow. (be, negative)",
+          "answer": "is not going to be"
+        },
+        {
+          "q": "They ____________________ abroad next year. (travel, negative)",
+          "answer": "are not going to travel"
+        },
+        {
+          "q": "I'm tired, so I think I ____________________ to bed now. (go, affirmative)",
+          "answer": "will go"
+        },
+        {
+          "q": "My father ____________________ me the money to buy a car. (give, negative)",
+          "answer": "will not give"
+        },
+        {
+          "q": "They ____________________ home tonight since there is a good movie playing at the theater. (stay, negative)",
+          "answer": "will not stay"
+        },
+        {
+          "q": "The paint ____________________ because it is very warm today. (dry, affirmative)",
+          "answer": "will dry"
+        },
+        {
+          "q": "I ____________________ any dessert because I ate a big dinner. (have, negative)",
+          "answer": "will not have"
+        },
+        {
+          "q": "We saw a orangutan in a tree at the zoo. ____________________",
+          "answer": "an"
+        },
+        {
+          "q": "The San Diego Zoo is a largest zoo in the United States. ____________________",
+          "answer": "the"
+        },
+        {
+          "q": "A brown dog that lives next door seems to be sick. ____________________",
+          "answer": "The"
+        },
+        {
+          "q": "My parents bought me an new puppy for my birthday. ____________________",
+          "answer": "a"
+        },
+        {
+          "q": "Hugh has always wanted to have the pet snake. ____________________",
+          "answer": "a"
+        },
+        {
+          "q": "Where does your family usually go for summer ________________________ ?",
+          "answer": "vacation"
+        },
+        {
+          "q": "Please don't ________________________ about your doctor's appointment tomorrow.",
+          "answer": "forget"
+        },
+        {
+          "q": "Owls and bats are two ________________________ animals that fly in the night.",
+          "answer": "nocturnal"
+        },
+        {
+          "q": "Is there a nice shop around here where I can buy a birthday ________________________ ?",
+          "answer": "present"
+        },
+        {
+          "q": "The drive ________________________ the coast of California is beautiful.",
+          "answer": "along"
+        },
+        {
+          "q": "I ________________________ ever go to the gym because I'm too busy.",
+          "answer": "hardly"
+        },
+        {
+          "q": "George enjoys ________________________ on the trails in Yellowstone National Park.",
+          "answer": "hiking"
+        },
+        {
+          "q": "Although you're going to New York on business, I hope you'll find time to visit the ________________________ .",
+          "answer": "sights"
+        },
+        {
+          "q": "Do you have a ________________________ minutes to talk with me?",
+          "answer": "few"
+        },
+        {
+          "q": "The Pantheon is an ________________________ temple in Rome.",
+          "answer": "ancient"
+        },
+        {
+          "q": "John ____ in China next fall. a. will to study b. is going to study c. going to study d. is to study",
+          "answer": "B"
+        },
+        {
+          "q": "____ you while you're there. a. Your family is going to visit b. Your family will to visit c. Is your family going to visit d. Is going to visit your family",
+          "answer": "A"
+        },
+        {
+          "q": "____ until next semester. a. I am will graduate b. I am will not graduate c. I will not graduate d. I am not going graduate",
+          "answer": "C"
+        },
+        {
+          "q": "The train ____ on schedule. a. isn't going to depart b. won't going to depart c. isn't going to will d. isn't will going to depart",
+          "answer": "A"
+        },
+        {
+          "q": "____ their parents tonight. a. They going to call b. They will to call c. They will calling d. They are going to call",
+          "answer": "D"
+        },
+        {
+          "q": "\"It's been ten years since I've seen you!\"",
+          "answer": "H"
+        },
+        {
+          "q": "\"Bermuda is the perfect place to relax.\"",
+          "answer": "J"
+        },
+        {
+          "q": "\"I hate when you do that!\"",
+          "answer": "B"
+        },
+        {
+          "q": "\"These dinosaur bones are more than 2,000 years old.\"",
+          "answer": "A"
+        },
+        {
+          "q": "\"How wonderful of you to give me diamond earrings and a necklace!\"",
+          "answer": "G"
+        },
+        {
+          "q": "\"He's my mother's brother's son.\"",
+          "answer": "C"
+        },
+        {
+          "q": "\"You got the job? Let's have a party!\"",
+          "answer": "F"
+        },
+        {
+          "q": "\"For this event men should wear suits and black ties.\"",
+          "answer": "D"
+        },
+        {
+          "q": "\"I want to talk to you today about the state of our economy.\"",
+          "answer": "I"
+        },
+        {
+          "q": "\"You really want my opinion? Actually, I don't think it's a very good hair cut.\"",
+          "answer": "E"
+        },
+        {
+          "q": "Misha has great camera. _________________________________",
+          "answer": ""
+        },
+        {
+          "q": "Steve lost car keys at the mall. _________________________________",
+          "answer": ""
+        },
+        {
+          "q": "It takes me an hour to finish homework. _________________________________",
+          "answer": ""
+        },
+        {
+          "q": "They're going to visit White House next week. _________________________________",
+          "answer": ""
+        },
+        {
+          "q": "Please give me ideas for the science project. I don't have any. _________________________________",
+          "answer": ""
+        },
+        {
+          "q": "We are not going on vacation this summer. We don't have enough money. _________________________________",
+          "answer": ""
+        },
+        {
+          "q": "My brother won't help me move my furniture this weekend. He has to work. _________________________________",
+          "answer": ""
+        },
+        {
+          "q": "The veterinarian is going to give my cat some medicine. The cat is sick. _________________________________",
+          "answer": ""
+        },
+        {
+          "q": "Because of the snowstorm. Judy's flight was delayed. _________________________________",
+          "answer": ""
+        },
+        {
+          "q": "I am going to be late for work. My car broke down. _________________________________",
+          "answer": ""
+        },
+        {
+          "q": "( to study / I have / to the library / for my exam / because / I am going ) ____________________________________________________________",
+          "answer": ""
+        },
+        {
+          "q": "( the house / his parents / to visit / Jason is cleaning / are coming / because ) ____________________________________________________________",
+          "answer": ""
+        },
+        {
+          "q": "( Martha is going / to sell it soon / because / to paint / she plans / her house ) ____________________________________________________________",
+          "answer": ""
+        },
+        {
+          "q": "( because / is being repaired / to school tomorrow / I need / my car / a ride ) ____________________________________________________________",
+          "answer": ""
+        },
+        {
+          "q": "( eat meat / because / are going / we / I don't / to a vegetarian restaurant ) ____________________________________________________________",
+          "answer": ""
+        },
+        {
+          "q": "Alicia and Tom are going to the beach. Because they want to go swimming.",
+          "answer": ""
+        },
+        {
+          "q": "Do you want to eat lunch? Because I'm really hungry.",
+          "answer": ""
+        },
+        {
+          "q": "They won't be going to the meeting because she broke her leg.",
+          "answer": ""
+        },
+        {
+          "q": "Because you're smart. You always do well on tests.",
+          "answer": ""
+        },
+        {
+          "q": "She's calling the doctor because her daughter has a high fever.",
+          "answer": ""
+        },
+        {
+          "q": "Think about your schedule for the next week. What are your plans? Use will and be going to in your sentences.",
+          "answer": ""
+        }
+      ]
+    }
+  ]
+}

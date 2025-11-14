@@ -1,0 +1,216 @@
+{
+  "title": "Level 1 Reading Test 1",
+  "sections": [
+    {
+      "type": "tf",
+      "instructions": "DIRECTIONS: Read each statement and decide if it is True or False according to the reading passage.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Reading Comprehension\nReview<br/><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\">The Power to\nChange</span><br/></b><br/></div>In 2011, Kylie Dunn, a writer from Australia, decided to shake up her\nlife. Every month for a year, she decided to try two new activities. In February 2012, for example,\none of her goals was to eat less meat for 30 days. Later, she wrote a letter to a friend or relative\nevery day for a month. In just 12 months, she changed her life in more than 20 different\nways.<br/><br/><b>A YEAR OF CHANGE<br/></b><br/>Dunn was inspired to try her project after watching a TED\nTalk by Matt Cutts. To get ideas for activities, she watched hundreds of other TED Talks. Her first\nactivity, in November 2011, was inspired by Jessi Arrington’s talk “Wear Nothing\nNew.” Dunn tried each activity for 30 days, and then wrote about her experiences in a blog\ncalled “My Year of TED.”<br/><br/>Finally, when her project was over, Dunn talked about her\nexperiences at a TEDx conference in Hobart, Australia. Dunn’s talk in January 2014 inspired\nother people to change their attitudes and their lives. Before her project, Dunn says, she\ndidn’t think she had the courage to change her life. The project showed her she had more\nstrength than she thought.<br/><br/><b>A MILLION STORIES<br/><br/></b>“People who watch TED Talks .\n. . end up shifting their view of the future,” says Chris Anderson, the curator of TED. He says\nthat TED’s goal isn’t to make a single big change. TED’s impact is the millions of\nstories of small changes. Individual changes like Kylie Dunn’s are happening every day.\nTogether, these changes have the power to change the future in a positive way. As Anderson explains,\n“Instead of thinking of [the future] as an unstoppable force . . . [people\ncan] play a part in shaping it.”<br/><div style=\"margin-left:31pt;margin-right:63pt\"><b><br/></b></div><div style=\"margin-right:63pt\"><span style=\"font-size:9pt\"><b>courage: </b><i>n</i>. a willingness to do something that is difficult or\ndangerous<br/></span></div><div style=\"margin-right:93pt\"><span style=\"font-size:9pt\"><b>shifting:\n</b><i>v</i>. moving, changing<br/><b>view:  </b><i>n</i>. an opinion or way of thinking about\nsomething<br/></span></div><div style=\"margin-right:0pt\"><span style=\"font-size:9pt\"><b>curator:\n</b><i>n</i>. a person who selects and manages a collection of art, videos, etc.<br/><br/></span><span style=\"font-size:12pt\"></span></div></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "Kylie Dunn decided to try one new activity every two months.",
+          "answer": "F"
+        },
+        {
+          "q": "For one month, on each day, Kylie Dunn wrote a letter to someone she knew.",
+          "answer": "T"
+        },
+        {
+          "q": "Kylie Dunn’s inspiration to change her life came from reading blogs.",
+          "answer": "F"
+        },
+        {
+          "q": "Kylie Dunn got the idea for her first activity from Jessi Arrington’s TED Talk.",
+          "answer": "T"
+        },
+        {
+          "q": "Kylie Dunn is continuing her project today.",
+          "answer": "F"
+        },
+        {
+          "q": "Kylie Dunn’s talk inspired other people to try new things.",
+          "answer": "F"
+        },
+        {
+          "q": "Chris Anderson’s view of the future is an optimistic (hopeful) one.",
+          "answer": "T"
+        }
+      ]
+    },
+    {
+      "type": "cloze",
+      "instructions": "DIRECTIONS: Read the passage and answer the questions.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><div style=\"text-align:center\"><b><span style=\"font-size:14pt\">Morgan Spurlock<br/></span></b></div>Morgan Spurlock is an American film-maker,\nhumorist, and writer, as well as a TED speaker. He is probably best known for his 2004 documentary\nfilm<sup>1</sup>, <i>Supersize Me</i>. This movie probably changed the eating habits of millions of\npeople. After seeing this film, I don’t believe anyone could look at fast food in the same\nway.  In the movie, Spurlock does an experiment: For 30 days, he eats three meals a day from\nMcDonald’s, and nothing else. His diet caused him shocking physical and emotional problems. He\nwas healthy and fit when he started his experiment. In 30 days, he gained 11 kg (25 pounds). He also\nhad liver problems and became depressed. It took him over a year to return to his normal weight of 84\nkg (185 pounds) and become healthy again. Spurlock was nominated for an Academy Award<sup>2</sup> for\nbest documentary film that year—an award that he should have won.  <br/><br/>A few years\nlater, Spurlock produced a television series called <i>30 Days</i>.  In this series, someone\n(often Spurlock himself) lives the life of someone else. For example, in one episode, he stays in a\nprison for 30 days. In another, he works as a coal miner for 30 days. Not everyone agrees that 30\ndays is enough to really know what it was like to be in prison, or to mine coal, or to understand\nanother person’s lifestyle. However, his shows gave us a glimpse<i><sup>3</sup></i> into\ndangerous and unfamiliar ways of living,<br/> <br/><span style=\"font-size:10pt\"><sup>1</sup>\n<b>documentary films: </b><i>n.</i> factual movies about real people and real events<br/><sup>2\n</sup><b>the Academy Awards:</b> <i>n.</i> prizes given every year for the best movie, best director,\nbest actor, etc. (also called “the Oscars”)<br/><sup>3</sup><b>glimpse:</b> <i>n.</i> a\nquick look</span></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "The author’s attitude towards Morgan Spurlock and his work is generally . . . a. positive b. neutral (neither negative nor positive) c. negative",
+          "answer": "A"
+        },
+        {
+          "q": "Morgan Spurlock’s experiment was to . . . a. eat only fast food for 30 days b. go on a diet to lose some weight c. try to complete a movie in 30 days",
+          "answer": "A"
+        },
+        {
+          "q": "After making the movie Supersize Me , . . . a. Morgan Spurlock’s health was permanently damaged. b. it took a long time for Morgan Spurlock’s health to recover. c. Morgan Spurlock’s health immediately returned to normal.",
+          "answer": "B"
+        },
+        {
+          "q": "DIRECTIONS: Write Fact if the statement is a fact and Opinion if the statement is an opinion. Morgan Spurlock has more than one job. __________",
+          "answer": ""
+        },
+        {
+          "q": "DIRECTIONS: Write Fact if the statement is a fact and Opinion if the statement is an opinion. People changed their opinion of fast food because of Spurlock’s movie. ___________",
+          "answer": ""
+        },
+        {
+          "q": "DIRECTIONS: Write Fact if the statement is a fact and Opinion if the statement is an opinion. Supersize Me did not win an Academy Award for the best documentary of 2004. ____________",
+          "answer": ""
+        },
+        {
+          "q": "DIRECTIONS: Write Fact if the statement is a fact and Opinion if the statement is an opinion. Thirty days is not enough time to really explore the experience of being in prison or working in a mine. ___________",
+          "answer": ""
+        },
+        {
+          "q": "DIRECTIONS: Write Fact if the statement is a fact and Opinion if the statement is an opinion. The show Thirty Days provided a useful view into the lives of other people. __________",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "instructions": "DIRECTIONS: Read the passage. Select one of the transition words listed below to complete each sentence.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><div style=\"text-align:center\"><b><span style=\"font-size:14pt\"><br/>Traveling\nIndependently<br/></span></b><br/></div>My parents have always loved to travel. About two years ago,\nthey read a book called “The Independent Traveler.” (A) ___________ that, they had always\ntraveled with large tour groups or else they had gone on cruise ships. But (B) _____________ reading\nthis book, they started planning a trip to Brazil.  (C) __________, they took a course in\nconversational Portuguese. (D) ___________, they researched their destination on the Internet and\ndecided on their own where to go and what to see. (E) __________, they arranged to stay with\nBrazilian families rather than at luxury hotels. They had a wonderful trip! And they are planning to\ntake a trip across Africa. They are going to write a blog describing what they do every day.\n(F)  _________, when they return, they hope to use those notes to write their own book about\ntravelling independently.</div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "(A)",
+          "options": [
+            "First",
+            "Before"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "(B)",
+          "options": [
+            "Before",
+            "After"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "(C)",
+          "options": [
+            "Next",
+            "First"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "(D)",
+          "options": [
+            "After",
+            "Then"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "(E)",
+          "options": [
+            "Finally",
+            "Second"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "(F)",
+          "options": [
+            "Later",
+            "After"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "type": "cloze",
+      "instructions": "DIRECTIONS: Read the excerpt from Matt Cutts’ TED Talk. Then answer the questions.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><div style=\"text-align:center\"><b><span style=\"font-size:14pt\"><br/>Matt Cutts—Try Something New for\n30 Days<br/><br/></span></b></div>A few years ago, I felt like I was stuck in a rut. I decided to\nfollow in the footsteps of the American film-maker, Morgan Spurlock, and to try something new for 30\ndays. The idea is actually pretty simple. Think about something you’ve always wanted to add to\nyour life. Then try it for the next 30 days. It turns out, 30 days is just about the right amount of\ntime to add a new habit or subtract a habit from your life.<br/><br/>There are a few things I learned\nwhile doing these 30-day challenges. The first thing I learned is that the months didn’t fly\nby, forgotten. Instead, the time was much more memorable. One  challenge was to take a picture\nevery day for a month. And I remember exactly where I was and what I was doing each day I took a\nphoto.. I also noticed that, as I started to do harder 30-day challenges, my self-confidence grew. I\nwent from being a computer nerd1 to the kind of guy who bikes to work—for fun. And last year, I\nhiked up Mt. Kilimanjaro, the highest mountain in Africa. I would never have been that adventurous\nbefore I started my 30-day challenges.<br/><br/>I also figured out that if you really want something\nbadly enough, you can do anything for 30 days. Have you ever wanted to write a novel? Every November,\ntens of thousands of people try to write their own 50,000-word novel in 30 days. All you have to do\nis write 1,667 words a day for a month. So I did. By the way, the secret is not to go to sleep until\nyou’ve written your words for the day. You might not get enough  sleep, but you’ll\nfinish your  novel. Now, is my book the next great American novel? No. I wrote it in a month.\nIt’s awful. But for the rest of my life, I don’t have to say, “I’m a computer\nscientist” Now, if I want to, I can say, “I’m a novelist.”<br/><br/>So\nhere’s my question to you: What are you waiting for? I guarantee you the next 30 days are going\nto pass whether you like it or not, so why not think about something you have always wanted to try,\nand give it a shot for the next 30 days.</div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "When Matt Cutts says, “I was stuck in a rut,” he means that he... a. was feeling depressed b. wasn’t trying anything new c. had very little money",
+          "answer": "B"
+        },
+        {
+          "q": "Cutts says that a period of 30 days is... a. long enough to completely change one’s life b. the right amount of time to try a new activity c. not enough time to give up a bad habit",
+          "answer": "B"
+        },
+        {
+          "q": "Why does Cutts mention hiking up Mt. Kilimanjaro? a. It is a challenge he always wanted to experience. b. It was the subject of an earlier TED Talk that he gave. c. It indicates that he had more confidence in himself.",
+          "answer": "C"
+        },
+        {
+          "q": "Which of these is the main idea of paragraph 3? a. Cutts wishes that he could have written a better novel. b. Cutts now considers himself a novelist, not a computer scientist. c. Cutts didn’t write a great novel, but at least he finished it.",
+          "answer": "C"
+        },
+        {
+          "q": "DIRECTIONS: Write Fact if the statement is a fact and Opinion if the statement is an opinion. Morgan Spurlock has more than one job. __________",
+          "answer": "A"
+        },
+        {
+          "q": "DIRECTIONS: Write Fact if the statement is a fact and Opinion if the statement is an opinion. People changed their opinion of fast food because of Spurlock’s movie. ___________",
+          "answer": "G"
+        },
+        {
+          "q": "DIRECTIONS: Write Fact if the statement is a fact and Opinion if the statement is an opinion. Supersize Me did not win an Academy Award for the best documentary of 2004. ____________",
+          "answer": "F"
+        },
+        {
+          "q": "DIRECTIONS: Write Fact if the statement is a fact and Opinion if the statement is an opinion. Thirty days is not enough time to really explore the experience of being in prison or working in a mine. ___________",
+          "answer": "C"
+        },
+        {
+          "q": "DIRECTIONS: Write Fact if the statement is a fact and Opinion if the statement is an opinion. The show Thirty Days provided a useful view into the lives of other people. __________",
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "type": "ma",
+      "instructions": "DIRECTIONS: Match the first part of each sentence with the second part of the sentence (A-H) to form logical sentences.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"></div><div class=\"default\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"95%\"><tr valign=\"baseline\"><td width=\"4%\"><div class=\"choice\">a.</div></td><td width=\"96%\"><span class=\"default\">...when I took a more challenging job.</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">b.</div></td><td><span class=\"default\">...a month to finish\nthis project.</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">c.</div></td><td><span class=\"default\">...to travel to a dozen different countries.</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">d.</div></td><td><span class=\"default\">...despite the\nproblems I have faced.</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">e.</div></td><td><span class=\"default\">...always inspires me.</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">f.</div></td><td><span class=\"default\">...a big impact on\nmy life.</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">g.</div></td><td><span class=\"default\">...they can help shape the future.</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">h.</div></td><td><span class=\"default\">...the experiences I had when I was\ntraveling</span></td></tr></table></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "One individual change may seem unimportant, but taken together...",
+          "answer": "H"
+        },
+        {
+          "q": "I recently changed my diet, and it had...",
+          "answer": "A"
+        },
+        {
+          "q": "One of my goals for the next ten years is...",
+          "answer": "D"
+        },
+        {
+          "q": "My boss gave our team...",
+          "answer": "E"
+        },
+        {
+          "q": "I wrote a blog about...",
+          "answer": ""
+        },
+        {
+          "q": "My attitude towards work changed...",
+          "answer": ""
+        },
+        {
+          "q": "I have tried to have a positive outlook...",
+          "answer": ""
+        },
+        {
+          "q": "Looking at the paintings in the art museum...",
+          "answer": ""
+        }
+      ]
+    }
+  ]
+}

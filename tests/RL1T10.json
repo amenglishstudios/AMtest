@@ -1,0 +1,315 @@
+{
+  "title": "Reading Level 1 Test 10",
+  "sections": [
+    {
+      "type": "mc",
+      "instructions": "DIRECTIONS: Read the passage then decide if the information in the sentences below is TRUE, FALSE, or NOT GIVEN.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Reading Comprehension\nReview<br/><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\">ROBOTS LIKE\nUS<br/></span><br/></b></div>Meet Nexi. Nexi is one of a new generation of robots. It moves on wheels\nand can pick up objects. But robots like Nexi are more than just entertaining\ntoys.<br/><br/><b>INTERACTING WITH ROBOTS<br/><br/></b>Roboticists at the Massachusetts Institute of\nTechnology (MIT) call Nexi a “social robot.” A social robot is a robot that can\ncommunicate like a human. It can express human emotions. Nexi can look sad, mad, and even bored. Some\nsocial robots can also “read” our facial expressions. For example, Nexi can see that we\nare sad and can say something to make us happy. Roboticists, like MIT’s Cynthia Breazeal,\nbelieve that it won’t be long before we have social robots in our homes, helping us live better\nlives. <br/><br/>Autom is another social robot developed at MIT. Autom is a robot health coach. It has\na screen where you enter information about what food you ate that day or how much you exercised.\nAutom has a face with eyes that move. It speaks with a synthesized voice. Autom gives you advice\nabout your diet and exercise, and motivates you to do better. <br/><br/>In a test, Autom helped people\nlose weight better than other ways of recording diet information. Breazeal thinks this is because\nAutom used facial expressions and words of encouragement. In other words, Autom interacted like a\nreal person. In fact, many people who used Autom gave the robot a new name and talked to it. When\nrobots use human expressions and body language, Breazeal says, people respond to them “a lot\nlike they respond to people.” <br/><br/>In the future, humans may interact with social robots\njust like they do with other people. The robot of the future will be not just a machine; it may also\nbe your coach, helper, or friend.<br/><br/></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "The definition of a “social robot” is one that can communicate with humans.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "Both Nexi and Autom were developed at MIT.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "Autom is able to read the emotions of people it is advising.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": "C"
+        },
+        {
+          "q": "Autom looks like a person, except his eyes do not move.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "Cynthia Breazeal believes that robots’ body language can make them seem more human.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "Nexi can try to cheer people up if they seem sad.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "Some human health coaches worry that robots might take their jobs.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": "C"
+        },
+        {
+          "q": "Cynthia Breazeal designed both Nexi and Autom.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": "C"
+        },
+        {
+          "q": "People using Autom as a coach were more successful at losing weight than those who did not use Autom.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "In the future, robots will be able to interact with one another.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "instructions": "DIRECTIONS: Read the passage and answer the questions.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Reading Comprehension\nExtension<br/><br/></span><span style=\"font-size:14pt\"><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\"><br/>Us. And Them. <br/></span></b></div><b><br/>Paragraph\n1<br/></b><br/><b>Someone types a command into a laptop,</b> and Actroid-DER sits up quickly. Air\nflows beneath silicone skin, raising her arms and lifting the corners of her mouth into a smile. She\nblinks, then turns her face toward me and says, “Are you surprised that I’m a\nrobot?” she asks. “I look just like a human, don’t I?”<br/><br/><b>Paragraph\n2<br/></b><br/>Unfortunately, her programmed comment makes me realize the many ways that she does not.\nDeveloped in Japan by the Kokoro Company, the Actroid-DER android can be rented to serve as a speaker\nat corporate events. But in spite of the $250,000 spent on making her, she does not move smoothly and\nher face is inelastic<sup>1</sup>.<br/><br/><b>Paragraph 3<br/></b><br/>This model has been transported\nto Carnegie Mellon University in Pittsburgh to acquire something like a personality. At least this is\nwhat five optimistic graduate students in the university’s Entertainment Technology Center are\nhoping. They have been given 15 weeks to make this robot seem more like a human female. They have\nbegun by renaming her Yume—dream, in Japanese. “The Kokoro Company developed her to be\nphysically realistic, but that’s not enough by itself,” says Christine Barnes, student\nco-producer of the Yume Project. “What we’re going to do is shift the focus from realism\nto believability.”<br/><br/><b>Paragraph 4<br/></b><br/>The Actroid androids are part of a new\ngeneration of robots designed to function not as programmed machines, but independently—capable\nof taking on roles in our homes, schools, and offices previously done only by humans. The first\nexamples of this type of robot were the Roomba robots that can vacuum our carpets, and the electronic\npets that sit up and roll over on command. More advanced robots may soon be available that cook for\nus, fold the laundry, even take care of our children or elderly parents, while we watch and assist\nfrom a computer miles away.  “In five or ten years, robots will routinely be functioning\nin human environments,” says Reid Simmons, a professor of robotics at Carnegie\nMellon.<br/><br/><b>Paragraph 5<br/></b><br/>This leads to many questions. How much everyday human\nfunction do we want to give to machines? Do we want robots like Yume cooking in our kitchens? How\nwill the robot revolution change the way we relate to each other? In short: Are we ready for them?\nAre they ready for us?<br/><br/><span style=\"font-size:9pt\"><sup>1 </sup><b>inelastic: </b><i>adj.\n</i>unable to stretch</span></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "The title of the article (“Us. And Them.”) probably refers to . . .",
+          "options": [
+            "ordinary people and scientists",
+            "people today and people in the future",
+            "humans and social robots"
+          ],
+          "answer": "C"
+        },
+        {
+          "q": "Which of the following best describes the author’s attitude toward the topic?",
+          "options": [
+            "The author questions whether the robot revolution will be completely positive.",
+            "The author believes the robot revolution will not come for many years.",
+            "The author feels that robots should not be made to act or look like humans."
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "Which paragraph describes the job of the Carnegie Mellon team?",
+          "options": [
+            "Paragraph 3",
+            "Paragraph 4",
+            "Paragraph 5"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "Which paragraph describes the doubts about the role of social robots in human society?",
+          "options": [
+            "Paragraph 1",
+            "Paragraph 3",
+            "Paragraph 5"
+          ],
+          "answer": "C"
+        },
+        {
+          "q": "Which paragraph gives a basic description of an Actroid-DER robot?",
+          "options": [
+            "Paragraph 1",
+            "Paragraph 3",
+            "Paragraph 5"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "Which paragraph describes how social robots are becoming more and more advanced?",
+          "options": [
+            "Paragraph 3",
+            "Paragraph 4",
+            "Paragraph 5"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "Which paragraph describes the ways in which the Actroid-DER robot does not seem human?",
+          "options": [
+            "Paragraph 1",
+            "Paragraph 2",
+            "Paragraph 3"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "type": "ma",
+      "instructions": "DIRECTIONS: Use the context of the passage above to match these words (a–j) with their definitions below.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Reading Skills<br/><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\">Shigeo Hirose: Robot\nDesigner<br/></span></b></div><br/>Professor Shigeo Hirose teaches and does research in the Department\nof Mechanical and Aerospace Engineering at the Tokyo Institute of Technology. He is <u>renowned</u>\nfor his <u>pioneering</u> work in the design and control of robots. Some of his early projects\ninvolved “bio-inspiration.” In other words, he used animals as inspirations for his robot\ncreations. <br/><br/>Hirose actually went to a pet store and <u>purchased</u> a snake in order to study\nthe way it moved. He said that a snake has a simple, <u>slender</u> body, much like a string, but it\nnot only crawls along the ground, it can also <u>coil</u> around an object and leap from branch to\nbranch. He used his studies of a real snake’s <u>locomotion</u> to create a robot that could\n<u>slither</u> along the ground and wrap itself around objects. He has also created robots that can\nwalk, swim, <u>hop</u>, and skate, as well as a “ninja” robot that can climb\n<u>vertical</u> walls. <br/><br/><br/></div><div class=\"default\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"95%\"><tr valign=\"baseline\"><td width=\"4%\"><div class=\"choice\">a.</div></td><td width=\"96%\"><span class=\"default\">renowned</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">b.</div></td><td><span class=\"default\">pioneering</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">c.</div></td><td><span class=\"default\">purchased</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">d.</div></td><td><span class=\"default\">slender</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">e.</div></td><td><span class=\"default\">coil</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">f.</div></td><td><span class=\"default\">locomotion</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">g.</div></td><td><span class=\"default\">hop</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">h.</div></td><td><span class=\"default\">slither</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">i.</div></td><td><span class=\"default\">vertical</span></td></tr></table></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "the act of moving from one place to another",
+          "answer": "F"
+        },
+        {
+          "q": "thin; not thick",
+          "answer": "D"
+        },
+        {
+          "q": "famous; well known",
+          "answer": "A"
+        },
+        {
+          "q": "to move by crawling",
+          "answer": "H"
+        },
+        {
+          "q": "to wrap something (such as rope or string) in circles",
+          "answer": "E"
+        },
+        {
+          "q": "bought",
+          "answer": "C"
+        },
+        {
+          "q": "innovative; creative",
+          "answer": "B"
+        },
+        {
+          "q": "straight up and down",
+          "answer": "I"
+        },
+        {
+          "q": "to move by a series of quick jumps (like a frog)",
+          "answer": "G"
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "instructions": "DIRECTIONS: Read the excerpt from Cynthia Breazeal’s 2010 TED Talk and answer the questions.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">TED Talk Comprehension<br/><br/></span><span style=\"font-size:14pt\"><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:12pt\"><br/></span><span style=\"font-size:14pt\">Cynthia Breazeal—The Rise of Personal\nRobots</span><br/></b></div><b><br/></b>Ever since I was a little girl seeing Star Wars for the first\ntime, I’ve been fascinated by this idea of personal robots. And as a little girl, I loved the\nidea of a robot that interacted with us much more like a helpful, trusted sidekick—something\nthat would delight us, enrich our lives, and help us save a galaxy or two. I knew robots like that\ndidn’t really exist, but I knew I wanted to build them. . . .<br/><br/>So over the past several\nyears I’ve been continuing to explore this interpersonal dimension of robots, now at the Media\nLab with my own team of incredibly talented students. And one of my favorite robots is Leonardo. We\ndeveloped Leonardo in collaboration with Stan Winston Studio. .. <br/><br/>... what I’ve learned\nthrough building these systems is that robots are actually a really intriguing social technology,\nwhere it’s actually their ability to push our social buttons and to interact with us like a\npartner that is a core part of their functionality. And with that shift in thinking, we can now start\nto imagine new questions, new possibilities for robots that we might not have thought about\notherwise. But what do I mean when I say “push our social buttons”? Well, one of the\nthings that we’ve learned is that, if we design these robots to communicate with us using the\nsame body language, the same sort of non-verbal cues that people use—like Nexi, our humanoid\nrobot, is doing here—what we find is that people respond to robots a lot like they respond to\npeople. People use these cues to determine things like how persuasive someone is, how likable, how\nengaging, how trustworthy. It turns out it’s the same for robots. . .</div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "In general, Cynthia Breazeal’s attitude towards robots is . . .",
+          "options": [
+            "very positive",
+            "somewhat fearful",
+            "quickly changing"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "Cynthia Breazeal was originally inspired to work on robots by . . .",
+          "options": [
+            "a class",
+            "a book",
+            "a movie"
+          ],
+          "answer": "C"
+        },
+        {
+          "q": "In paragraph 1, the word sidekick is closest in meaning to . . .",
+          "options": [
+            "companion",
+            "teacher",
+            "servant"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "Cynthia Breazeal now works . . .",
+          "options": [
+            "together with a famous scientist",
+            "with a group of students",
+            "at home with her husband"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "When Cynthia Breazeal uses the phrase push our social buttons she means that people . . .",
+          "options": [
+            "respond to robots as if they were people if the robots are human-like",
+            "may become angry if a robot does not seem to be acting in a human way",
+            "and robots will never really be able to communicate as humans do"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "Which of the following is the best definition of humanoid ?",
+          "options": [
+            "better than a human",
+            "similar to a human",
+            "different to a human"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "type": "cloze",
+      "instructions": "DIRECTIONS: Complete the sentences with correct word from the box.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><br/><div style=\"font-size:2pt\"></div><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"60%\"><tr valign=\"top\"><td class=\"pad\" style=\" border-left:0.8pt solid #000000; border-top:0.8pt solid #000000;\" valign=\"middle\">advised</td><td class=\"pad\" style=\" border-top:0.8pt solid #000000;\" valign=\"middle\">developed</td><td class=\"pad\" style=\" border-top:0.8pt solid #000000;\" valign=\"middle\">emotion</td><td class=\"pad\" style=\" border-top:0.8pt solid #000000; border-right:0.8pt solid\n#000000;\" valign=\"middle\">express</td></tr><tr valign=\"top\"><td class=\"pad\" style=\" border-left:0.8pt\nsolid #000000; border-bottom:0.8pt solid #000000;\" valign=\"middle\">generation</td><td class=\"pad\" style=\" border-bottom:0.8pt solid #000000;\" valign=\"middle\">interact</td><td class=\"pad\" style=\"\nborder-bottom:0.8pt solid #000000;\" valign=\"middle\">motivated</td><td class=\"pad\" style=\"\nborder-right:0.8pt solid #000000; border-bottom:0.8pt solid #000000;\" valign=\"middle\">respond</td></tr><tr height=\"0\" style=\"border:none\"><td width=\"25%\"></td><td width=\"22%\"></td><td width=\"21%\"></td><td width=\"32%\"></td></tr></table></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "Both robots, Nexi and Autom, were ____________________ by scientists at MIT.",
+          "answer": "developed"
+        },
+        {
+          "q": "The robots in the movie Star Wars could ____________________ emotions and ideas.",
+          "answer": "express"
+        },
+        {
+          "q": "I would like to go to the gym more often, but some days, I just can’t get ____________________. Maybe I should get an Autom!",
+          "answer": "motivated"
+        },
+        {
+          "q": "The next ____________________ of robots will be even more advanced than this one.",
+          "answer": "generation"
+        },
+        {
+          "q": "If a robot seems to be happy or sad, do you think that is a real ____________________ or just programming?",
+          "answer": "emotion"
+        },
+        {
+          "q": "Some robots are able to ____________________ to voice commands.",
+          "answer": "respond"
+        },
+        {
+          "q": "The scientists ____________________ the young students who were building their own robots for a school project.",
+          "answer": "advised"
+        },
+        {
+          "q": "Some people may actually find it easier to ____________________ with robots than with people.",
+          "answer": "interact"
+        }
+      ]
+    }
+  ]
+}

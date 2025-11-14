@@ -1,0 +1,296 @@
+{
+  "title": "EL2 Test 2",
+  "sections": [
+    {
+      "type": "cloze",
+      "instructions": "",
+      "passage": "",
+      "items": [
+        {
+          "q": "We ____________________ married.",
+          "answer": "are not"
+        },
+        {
+          "q": "My brothers and sisters ____________________ students.",
+          "answer": "are not"
+        },
+        {
+          "q": "Q: ____________________ from Japan? A: Yes, he is.",
+          "answer": "Is he"
+        },
+        {
+          "q": "Q: ____________________ from the same country? A: No, we aren't.",
+          "answer": "Are we"
+        },
+        {
+          "q": "Q: Am I your best friend? A: Yes, ____________________.",
+          "answer": "you are"
+        },
+        {
+          "q": "Q: Is English easy for Ali? A: No, ____________________.",
+          "answer": "it isnt | its not"
+        },
+        {
+          "q": "Mrs. Kwon isn't here. Where ____________________?",
+          "answer": "is she"
+        },
+        {
+          "q": "That is a strange flower. What ____________________ ?",
+          "answer": "is it"
+        },
+        {
+          "q": "Are we late for class? What time ____________________?",
+          "answer": "is it"
+        },
+        {
+          "q": "The dog is outside. ____________________ is outside.",
+          "answer": "It"
+        },
+        {
+          "q": "Math and science are my favorite subjects. ____________________ are my favorite subjects.",
+          "answer": "They"
+        },
+        {
+          "q": "Linda ____________________ (live / lives) with her sister.",
+          "answer": "lives"
+        },
+        {
+          "q": "They ____________________ (eat / eats) in the cafeteria every day.",
+          "answer": "eat"
+        },
+        {
+          "q": "Senators ____________________ (work / works) in Washington, D.C.",
+          "answer": "work"
+        },
+        {
+          "q": "Luis uses a computer. He ____________________ it every day.",
+          "answer": "uses"
+        },
+        {
+          "q": "My sister lives in a house. I____________________ in an apartment.",
+          "answer": "live"
+        },
+        {
+          "q": "I go to the movies every Friday. You ____________________ every Friday, too.",
+          "answer": "go"
+        },
+        {
+          "q": "Q: ____________________ Linda have a dog? A: No, she doesn't.",
+          "answer": "Does"
+        },
+        {
+          "q": "Q: ____________________ ____________________ she get married? A: Because she's too young.",
+          "answer": "Why doesn't"
+        },
+        {
+          "q": "Q: ____________________ ____________________ Senator Smith come from? A: He’s from Alabama.",
+          "answer": "Where does"
+        },
+        {
+          "q": "Q: ____________________ ____________________ they pay taxes? A: They don’t pay taxes because they don’t make any money.",
+          "answer": "Why dont"
+        },
+        {
+          "q": "Where ____________________ he work?",
+          "answer": "does"
+        },
+        {
+          "q": "Who ____________________ she live with?",
+          "answer": "does"
+        },
+        {
+          "q": "Where____________________ the government’s offices?",
+          "answer": "are"
+        },
+        {
+          "q": "Who ____________________ your senator?",
+          "answer": "is"
+        },
+        {
+          "q": "Q: Do carpenters use hammers? A: Yes, ____________________.",
+          "answer": "they do"
+        },
+        {
+          "q": "Q: Does Linda drink coffee? A: No, ____________________.",
+          "answer": "she doesn't"
+        },
+        {
+          "q": "Q: When ____________________? A: Class starts at 9:00.",
+          "answer": "does class start"
+        },
+        {
+          "q": "Q: Why ____________________? A: I drink coffee because I like it.",
+          "answer": "do you drink coffee"
+        },
+        {
+          "q": "I don't eat meat. I ____________________ eat meat.",
+          "answer": "never"
+        },
+        {
+          "q": "I watch TV news once or twice a week. I ____________________ watch TV news.",
+          "answer": "sometimes"
+        },
+        {
+          "q": "I get up at 8:00 seven days a week. I ____________________ get up at 8:00.",
+          "answer": "always"
+        },
+        {
+          "q": "I use the computer to do my homework several days a week. I ____________________ use the computer to do my homework.",
+          "answer": "often"
+        },
+        {
+          "q": "Class begins ____________________ 10:00.",
+          "answer": "at"
+        },
+        {
+          "q": "I only drink coffee ____________________ the morning.",
+          "answer": "in"
+        },
+        {
+          "q": "I like to ski ____________________ the winter.",
+          "answer": "in"
+        },
+        {
+          "q": "The cat likes to go out ____________________ night.",
+          "answer": "at"
+        },
+        {
+          "q": "New Year’s Day is __________ (in / on) January 1st.",
+          "answer": "on"
+        },
+        {
+          "q": "St. Patrick’s Day is __________ (at / in) March.",
+          "answer": "in"
+        },
+        {
+          "q": "My dog ____ black and white. a. am c. are b. is d. be",
+          "answer": "B"
+        },
+        {
+          "q": "Baker Community College ____ a small college. a. am c. are b. is d. be",
+          "answer": "B"
+        },
+        {
+          "q": "Choose the correct sentence. a. My book on the desk is. c. My book is on the desk. b. On the desk is my book.",
+          "answer": "C"
+        },
+        {
+          "q": "Choose the correct sentence. a. Are expensive new cars. c. Expensive are new cars. b. New cars are expensive.",
+          "answer": "B"
+        },
+        {
+          "q": "The son and daughter are in high school. ____ are good children. a. I b. He c. She d. We e. They",
+          "answer": "E"
+        },
+        {
+          "q": "You and I are from Mexico. ____ are native speakers of Spanish. a. I b. He c. She d. We e. They",
+          "answer": "D"
+        },
+        {
+          "q": "I am a student. ____ am in Ms. Claflin's class. a. I b. He c. She d. We e. They",
+          "answer": "A"
+        },
+        {
+          "q": "Ms. Claflin is a good teacher. ____ is from New York City. a. I b. He c. She d. We e. They",
+          "answer": "C"
+        },
+        {
+          "q": "I live ____ 79 Main Street. a. in c. at b. on d. from",
+          "answer": "C"
+        },
+        {
+          "q": "Q: ____ is Tran from? A: He's from Vietnam. a. Where c. How b. Why d. How old",
+          "answer": "A"
+        },
+        {
+          "q": "Q: ____ is it? A: It's green. a. What day c. What color b. What time d. What",
+          "answer": "C"
+        },
+        {
+          "q": "Q: ____ is that dictionary? A: It's $10.00. a. How long c. How much b. How tall d. How old",
+          "answer": "C"
+        },
+        {
+          "q": "Q: ____ is Maria? A: She's fine. a. How c. What b. How old d. How long",
+          "answer": "A"
+        },
+        {
+          "q": "Q: Do they have a dog? A: Yes, they ____. a. have c. do b. are d. does",
+          "answer": "C"
+        },
+        {
+          "q": "Q: Does Linda need help? A: No, she ____. a. don't c. isn't b. doesn't d. aren't",
+          "answer": "B"
+        },
+        {
+          "q": "Q: Are your children at home? A: Yes, they ____. a. are c. do b. aren't d. does",
+          "answer": "A"
+        },
+        {
+          "q": "Q: Does he live in France? A: No, he ____. a. is c. isn't b. don't d. doesn't",
+          "answer": "D"
+        },
+        {
+          "q": "Q: Does he work for the government? A: No, he _____. a. isn’t c. don’t b. aren’t d. doesn’t",
+          "answer": "D"
+        },
+        {
+          "q": "Q: Do some people get income tax refunds? A: Yes, they _____. a. am c. do b. is d. does",
+          "answer": "C"
+        },
+        {
+          "q": "march / never / in parades / they",
+          "answer": ""
+        },
+        {
+          "q": "wears green / on St. Patrick’s Day / usually / he",
+          "answer": ""
+        },
+        {
+          "q": "the teacher / ever / eat / does / in the cafeteria",
+          "answer": ""
+        },
+        {
+          "q": "100% of the time",
+          "answer": "C"
+        },
+        {
+          "q": "90% of the time",
+          "answer": "D"
+        },
+        {
+          "q": "50% of the time",
+          "answer": "E"
+        },
+        {
+          "q": "10% of the time",
+          "answer": "A"
+        },
+        {
+          "q": "0% of the time",
+          "answer": "B"
+        },
+        {
+          "q": "We studied __________ noon until 5:00.",
+          "answer": "D"
+        },
+        {
+          "q": "I have a doctor's appointment __________ Thursday.",
+          "answer": "B"
+        },
+        {
+          "q": "I was born __________ 1980.",
+          "answer": "A"
+        },
+        {
+          "q": "The class goes from 1:00 __________ 2:00.",
+          "answer": "E"
+        },
+        {
+          "q": "I seldom go to bed __________ midnight.",
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "title": "Writing Level 1 Test 1",
+  "sections": [
+    {
+      "type": "cloze",
+      "instructions": "",
+      "passage": "",
+      "items": [
+        {
+          "q": "My sister goes to school ________________________ the University of Oregon.",
+          "answer": "at"
+        },
+        {
+          "q": "Ahmed lives ________________________ Fletcher Avenue.",
+          "answer": "on"
+        },
+        {
+          "q": "The Eiffel Tower is located ________________________ Paris, France.",
+          "answer": "in"
+        },
+        {
+          "q": "We work ________________________ New York City.",
+          "answer": "in"
+        },
+        {
+          "q": "Carmen is having a dinner party ________________________ her house.",
+          "answer": "at"
+        },
+        {
+          "q": "Sue ________________________ (is / am / are) in her backyard.",
+          "answer": "is"
+        },
+        {
+          "q": "Chris and James ________________________ (is / am / are) at the gym.",
+          "answer": "are"
+        },
+        {
+          "q": "The concert ________________________ (is / was / were) at 7:00 last night.",
+          "answer": "was"
+        },
+        {
+          "q": "Her parents ________________________ (is / am/ are) very nice.",
+          "answer": "are"
+        },
+        {
+          "q": "The students ________________________ (is / was / were) late for class yesterday.",
+          "answer": "were"
+        },
+        {
+          "q": "There ________________________ a grocery store next to the post office.",
+          "answer": "is"
+        },
+        {
+          "q": "There ________________________ some good restaurants in my neighborhood.",
+          "answer": "are"
+        },
+        {
+          "q": "There ________________________ three tigers in the zoo.",
+          "answer": "are"
+        },
+        {
+          "q": "There ________________________ not a time limit on the test.",
+          "answer": "is"
+        },
+        {
+          "q": "There ________________________ a beautiful park downtown.",
+          "answer": "is"
+        },
+        {
+          "q": "My mother is from Peru _____",
+          "answer": "."
+        },
+        {
+          "q": "There are five people in my family _____",
+          "answer": "."
+        },
+        {
+          "q": "Where are you from _____",
+          "answer": "?"
+        },
+        {
+          "q": "What time does the movie start _____",
+          "answer": "?"
+        },
+        {
+          "q": "Happy birthday _____",
+          "answer": "!"
+        },
+        {
+          "q": "I pay my bills every week. a. subject b. verb c. object",
+          "answer": "B"
+        },
+        {
+          "q": "Elias likes action movies. a. subject b. verb c. object",
+          "answer": "A"
+        },
+        {
+          "q": "They drink coffee every morning. a. subject b. verb c. object",
+          "answer": "C"
+        },
+        {
+          "q": "Patricia runs four miles every day. a. subject b. verb c. object",
+          "answer": "A"
+        },
+        {
+          "q": "Charlie cleans his car once a month. a. subject b. verb c. object",
+          "answer": "C"
+        },
+        {
+          "q": "The Golden Gate Bridge is in San francisco . a. Golden b. Gate c. Bridge d. francisco",
+          "answer": "D"
+        },
+        {
+          "q": "We leave for vacation at the end of august . a. We b. vacation c. end d. august",
+          "answer": "D"
+        },
+        {
+          "q": "My friend alex lives in New York City . a. friend b. alex c. New d. City",
+          "answer": "B"
+        },
+        {
+          "q": "they play soccer every Friday afternoon . a. they b. soccer c. Friday d. afternoon",
+          "answer": "A"
+        },
+        {
+          "q": "The gym is open until nine o'clock on mondays . a. gym b. nine c. on d. mondays",
+          "answer": "D"
+        },
+        {
+          "q": "to understand a. to add b. to know c. to read",
+          "answer": "B"
+        },
+        {
+          "q": "ingredients a. to read with b. to write with c. to cook with",
+          "answer": "C"
+        },
+        {
+          "q": "cheap a. free b. low price c. high price",
+          "answer": "B"
+        },
+        {
+          "q": "finally a. the last b. the next c. the first",
+          "answer": "A"
+        },
+        {
+          "q": "to attend a. to forget something b. to be present c. to watch",
+          "answer": "B"
+        },
+        {
+          "q": "to enjoy a. to laugh b. to dislike c. to like",
+          "answer": "C"
+        },
+        {
+          "q": "a sentence a. a group of words b. a group of numbers c. a group of letters",
+          "answer": "A"
+        },
+        {
+          "q": "a region a. a size b. a place c. a time",
+          "answer": "B"
+        },
+        {
+          "q": "simple a. difficult b. not difficult c. complex",
+          "answer": "B"
+        },
+        {
+          "q": "famous a. friendly b. well known c. professional",
+          "answer": "B"
+        },
+        {
+          "q": "an unexpected _____",
+          "answer": "D"
+        },
+        {
+          "q": "_____ for a big company",
+          "answer": "A"
+        },
+        {
+          "q": "_____ cream to your coffee",
+          "answer": "E"
+        },
+        {
+          "q": "a _____ restaurant",
+          "answer": "C"
+        },
+        {
+          "q": "take a _____",
+          "answer": "B"
+        },
+        {
+          "q": "Angela from Chile. (is) ________________________________________",
+          "answer": ""
+        },
+        {
+          "q": "They dinner at home. (eat) ________________________________________",
+          "answer": ""
+        },
+        {
+          "q": "My watches TV every night. (friend) ________________________________________",
+          "answer": ""
+        },
+        {
+          "q": "Me this evening. (call) ________________________________________",
+          "answer": ""
+        },
+        {
+          "q": "The work and go to school. (students) ________________________________________",
+          "answer": ""
+        },
+        {
+          "q": "Pleasant Street / on / there is / an excellent restaurant _______________________________",
+          "answer": ""
+        },
+        {
+          "q": "in the yard / the two puppies / played _______________________________",
+          "answer": ""
+        },
+        {
+          "q": "a professor / is / Julie / at the local university _______________________________",
+          "answer": ""
+        },
+        {
+          "q": "at a seafood restaurant / and his mother / ate dinner / Mark __________________________",
+          "answer": ""
+        },
+        {
+          "q": "is / grandfather / in Italy / right now / Rosa's _______________________________",
+          "answer": ""
+        },
+        {
+          "q": "A class is something you attend.",
+          "answer": "T"
+        },
+        {
+          "q": "An onion is something you eat.",
+          "answer": "T"
+        },
+        {
+          "q": "When you are surprised , you know what will happen.",
+          "answer": "F"
+        },
+        {
+          "q": "A movie is something you read.",
+          "answer": "F"
+        },
+        {
+          "q": "If you cut something up , it stays the same size.",
+          "answer": "F"
+        },
+        {
+          "q": "Write about your favorite season. Why do you like this season? What is the weather like in this season? What kind of activities do you do in this season?",
+          "answer": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "title": "Reading Level 2 Test 4",
+  "sections": [
+    {
+      "type": "mc",
+      "instructions": "DIRECTIONS: Read the passage and answer the questions.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Reading Comprehension\nReview<br/><br/></span></b><b><span style=\"font-size:14pt\"><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\"><br/>Is Gaming Good for You?</span><span style=\"font-size:12pt\"><br/></span></b></div>Researchers who study online gaming have shown that it is\nmore than just a form of entertainment. In fact, people may benefit from online gaming in a number of\nways. For example, multiplayer online gaming can improve social skills because players have to work\ntogether toward the same goals. In one study, researchers in the Netherlands surveyed teens who\nplayed <i>World of Warcraft</i>. They found that the more frequently most teens played, the more\nsocially successful and less lonely they felt.<br/>Online gaming may also improve thinking skills. In\na recent study in Berlin, adults played a video game every day for two months.  Afterwards,\nresearchers scanned the players’ brains. They noticed that the players had more neurons in the\nparts of the brain that are responsible for memory and planning. <br/>Game designer Jane McGonigal has\nher own ideas about the benefits of gaming—not just for individual people, but for the whole\nworld. She calls people who play online games for at least one hour a day “virtuoso”\ngamers. Currently, there are about 500 million virtuoso gamers in the world. McGonigal predicts that\nin ten years there will be 1.5 billion. <br/>McGonigal believes that these gamers have four\ncharacteristics—“superpowers”—that make them better problem solvers. These\ncharacteristics are:<br/>• Urgent <u>optimism</u>: Online gamers don’t wait to defeat a\ndragon. Instead, gamers face any problem immediately—and believe that they can\nsucceed.<br/>• Community builders: Players in an online game have the same goal—to win.\nThey expect that everyone will play fairly and follow the same rules. This helps players build trust\nand improve cooperation.<br/>• Blissful productivity: Gamers enjoy working hard to achieve\nonline gaming goals. They feel a real sense of accomplishment when they do achieve these\ngoals—the “epic win” feeling.<br/>• Epic meaning: Gamers like being involved\nin an important mission. The larger-than-life worlds of online gaming make players feel that they are\nplaying a part in a significant story. <br/>Non-gamers may think online gaming is a waste of time and\nmoney. Some have argued online games contribute to problems like childhood obesity. However,\nMcGonigal thinks online gamers could be an important global resource if we can design games that help\nthem create “epic wins” in response to real-world problems.</div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "What is the purpose of this passage?",
+          "options": [
+            "to list the benefits of playing online games",
+            "to compare different kinds of online games",
+            "to tell a story about an online game designer"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "What does McGonigal believe about online gaming?",
+          "options": [
+            "Gaming can help the whole world.",
+            "The number of gamers will decrease.",
+            "Gaming should be taught in schools."
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "In paragraph 2, what was the result of adults playing video games every day for two months?",
+          "options": [
+            "There was more activity in the memory and planning section of their brains.",
+            "They had trouble making plans and remembering things.",
+            "There were fewer neurons in their brains."
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "What is McGonigal’s definition of “virtuoso” gamers?",
+          "options": [
+            "people who take part in online gaming competitions",
+            "people who have been playing online games for more than ten years",
+            "people who play online games for one hour a day or more"
+          ],
+          "answer": "C"
+        },
+        {
+          "q": "Which phrase describes the feeling when you do really well in a game even though it was very difficult?",
+          "options": [
+            "“virtuoso”",
+            "“epic win”",
+            "“superpowers”"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "Which characteristic of an online gamer refers to how gamers feel they are doing something important?",
+          "options": [
+            "urgent optimism",
+            "community builders",
+            "epic meaning"
+          ],
+          "answer": "C"
+        },
+        {
+          "q": "What is the best definition of “Urgent Optimism”?",
+          "options": [
+            "understanding that you need to fail many times before you succeed",
+            "carefully planning how you will successfully overcome a problem",
+            "tackling a problem immediately and thinking you’ll be successful"
+          ],
+          "answer": "C"
+        },
+        {
+          "q": "What is the main idea of this passage?",
+          "options": [
+            "Gamers and non-gamers have been debating the usefulness of online gaming for a long time.",
+            "Online gamers have several good characteristics which may help them solve world-wide problems.",
+            "Certain kinds of games are better than others because they help gamers solve problems and work together."
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "Which sentence gives a main idea, NOT a supporting detail?",
+          "options": [
+            "Researchers who study online gaming have shown that it is more than just a form of entertainment.",
+            "In a recent study in Berlin, adults played a video game every day for two months.",
+            "Currently, there are about 500 million virtuoso gamers in the world."
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "Which of the following is an example or argument for how online gaming is NOT good?",
+          "options": [
+            "Some have argued online games contribute to problems like childhood obesity.",
+            "They found that the more frequently most teens played, the more socially successful and less lonely they felt.",
+            "For example, multiplayer online gaming can improve social skills because players have to work together toward the same goals."
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "instructions": "DIRECTIONS: Read the passage and answer the questions.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Reading Comprehension Extension<br/></span><span style=\"font-size:12pt\"><br/></span></b><b><span style=\"font-size:14pt\"><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\">Alternate Reality Gaming</span><span style=\"font-size:12pt\"><br/></span></b></div>Jane McGonical is a computer game designer—but her\ngames are different. She makes “alternate reality games,” which aim to harness the unique\nskills of gamers to solve problems in the real world.<br/><b><i>Superbetter</i>\n(2012)<br/></b>McGonigal was inspired to create her game <i>Superbetter </i>when she was recovering\nfrom a serious concussion injury. The game aims to encourage players to remain optimistic, even when\nfacing the toughest challenges that life can throw at us. According to McGonigal, more than half a\nmillion players have played the game, and many found that it could help them overcome illnesses and\nother problems in their lives. A trial by The University of Pennsylvania supports her claim.\nFollowing a controlled trial of <i>Superbetter</i>, it was found that the game could help eliminate\nsymptoms of depression in just six weeks of play.<br/><b><i>Breakthrough to Cures</i> (2009)\n<br/></b><i>Breakthrough to Cures</i> was designed to change the way we think about medical research.\nPlayers are thrust into a future where disease is threatening the lives of 100 million people in the\nU.S.A. Then, over a period of 24 hours, gamers are asked to work together to brainstorm solutions to\nthe problem. Players can <u>level-up</u> and gain rewards for contributing useful ideas. As a result\nof the wide variety of creative ideas generated by the game, <i>Breakthrough to Cures</i> was named\nas one of the 10 most socially impactful games of 2010 by the organization Games for Change.<br/>The\nsuccess of <i>Breakthrough to Cures</i> has led to the development of other games for solving future\nproblems. For example, <i>Smart Grid 2025</i> has been designed to help tackle the energy problems\nthat the world may face in years to come.</div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "Which gives the best definition of an “alternate reality” game?",
+          "options": [
+            "a computer game that has realistic graphics",
+            "a computer game that tries to tackle problems in real life",
+            "a computer game that puts gamers into a fantasy world"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "What motivated McGonigal to make the game Superbetter ?",
+          "options": [
+            "the experiences of children she met in hospital",
+            "a report by the University of Pennsylvania",
+            "her own experience of recovering from an injury"
+          ],
+          "answer": "C"
+        },
+        {
+          "q": "What is the purpose of the game Superbetter ?",
+          "options": [
+            "to give people confidence and motivation to overcome problems in their lives",
+            "to provide hospitals with a free game that their patients can play",
+            "to give people advice about how they can improve their lives"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "Which of these sentences best summarizes the findings of the University of Pennsylvania about Superbetter ?",
+          "options": [
+            "If people play Superbetter , it will make them feel better for six weeks.",
+            "If people suffering from depression play Superbetter for six weeks, they will feel better.",
+            "Depression has six symptoms that can be eliminated by playing Superbetter ."
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "According to the article, how many people have played Superbetter ?",
+          "options": [
+            "five hundred thousand",
+            "fifty thousand",
+            "five thousand"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "What was the aim of the game Breakthrough to Cures ?",
+          "options": [
+            "to make people more confident when they are recovering from illness",
+            "to help people choose the best medicines for common diseases",
+            "to come up with ideas about how a country can deal with a deadly disease"
+          ],
+          "answer": "C"
+        },
+        {
+          "q": "In the game Breakthrough to Cures , how can players “level-up”?",
+          "options": [
+            "by eliminating a disease",
+            "by beating their opponents",
+            "by thinking of useful ideas"
+          ],
+          "answer": "C"
+        },
+        {
+          "q": "Which of the following statements is NOT true about Breakthrough to Cures ?",
+          "options": [
+            "The game generated a wide variety of creative ideas.",
+            "According to the organization Games for Change, it was the most socially impactful game of 2010.",
+            "The game was set in a future where disease threatened the United States."
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "Smart Grid 2025 was developed as a result of . . .",
+          "options": [
+            "an increase in demand for energy in the United States",
+            "the success of Breakthrough to Cures",
+            "a request from the organization Games for Change"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "What is the main aim of Smart Grid 2025 ?",
+          "options": [
+            "to encourage people to use less energy",
+            "to make energy available to people in poor countries",
+            "to help solve possible future energy problems"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "instructions": "DIRECTIONS: Read the passage below. Decide if each of the underlined phrases (A–G) is a pro or a con of computer gaming.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Reading Skills<br/><br/></span><br/></b><div style=\"text-align:center\"><b><br/><span style=\"font-size:14pt\">The Pros and Cons of Computer\nGames</span></b><br/><br/></div>Computer games have been around now for over 30 years, and the debate\nabout their positive and negative effects upon society is just as old.<br/><br/>While some people argue\nthat <b>(A)</b><u>gaming promotes an unhealthy, inactive lifestyle,</u> others suggest\n<b>(B)</b><u>it may increase our cognitive abilities</u>. Suggestions that <b>(C)</b><u>gaming turns\npeople into loners with no social skills</u> are countered by those who highlight <b>(D)</b><u>the\nhighly social online gaming community</u>. Parents who worry that <b>(E)</b><u>violent games may lead\nto violent behavior</u> are reminded that violent films have been around for decades. And while some\nbelieve that <b>(F)</b><u>the time and money spent by people playing games would be better used\nelsewhere</u>, people like Jane McGonigal believe that <b>(G)</b><u>certain games can help us solve\nglobal problems</u> like poverty and climate change.<br/><br/>Whatever your view, it is almost certain\nthat as technology pushes ahead at great speed, computer games are here to stay.</div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "(A)",
+          "options": [
+            "pro"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "(B)",
+          "options": [
+            "pro"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "(C)",
+          "options": [
+            "pro"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "(D)",
+          "options": [
+            "pro"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "(E)",
+          "options": [
+            "pro"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "(F)",
+          "options": [
+            "pro"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "(G)",
+          "options": [
+            "pro"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "type": "cloze",
+      "instructions": "DIRECTIONS: Read the following excerpt from Jane McGonigal’s 2010 TED Talk and answer the questions.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><div style=\"text-align:center\"><b><span style=\"font-size:14pt\">Jane\nMcGonigal—Gaming Can Make a Better World</span><br/></b></div><b><br/></b>We feel that we are not\nas good in reality as we are in games. And I don’t mean just good as in successful, although\nthat’s part of it. We do achieve more in game worlds. But I also mean good as in motivated to\ndo something that matters, inspired to collaborate and to cooperate. And when we’re in game\nworlds I believe that many of us become <u>the best version of ourselves</u>, the most likely to help\nat a moment’s notice, the most likely to stick with a problem as long at it takes, to get up\nafter failure and try again. And in real life, when we face failure, when we confront obstacles, we\noften don’t feel that way. We feel overcome, we feel overwhelmed, we feel anxious, maybe\ndepressed, frustrated, or cynical. We never have those feelings when we’re playing games, they\njust don’t exist in games.</div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "What does McGonigal mean by being the “best version of ourselves”? a. We perform to the best of our abilities. b. We behave better than everyone else.",
+          "answer": "A"
+        },
+        {
+          "q": "According to McGonigal, what is true both in real life and in the game world? a. We often face problems. b. We often feel anxious.",
+          "answer": "A"
+        },
+        {
+          "q": "What does McGonigal say about our feelings? a. We don’t have many strong feelings in the game world. b. We have more negative feelings in the real world.",
+          "answer": "B"
+        },
+        {
+          "q": "Which sentence (a–d) is the first sentence of the paragraph?",
+          "answer": "C"
+        },
+        {
+          "q": "Which sentence (a–d) is the second sentence of the paragraph?",
+          "answer": "B"
+        },
+        {
+          "q": "Which sentence (a–d) is the third sentence of the paragraph?",
+          "answer": "A"
+        },
+        {
+          "q": "Which sentence (a–d) is the fourth sentence of the paragraph?",
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "type": "cloze",
+      "instructions": "DIRECTIONS: Complete the sentences with a word from the box. One word is extra.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Vocabulary <br/><br/></span><br/><br/></b><div style=\"font-size:2pt\"></div><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"83%\"><tr valign=\"top\"><td class=\"pad\" style=\" border-left:0.8pt solid #000000;\nborder-top:0.8pt solid #000000; border-bottom:0.8pt solid #000000;\"><div style=\"text-align:center\">accomplish</div></td><td class=\"pad\" style=\" border-top:0.8pt solid\n#000000; border-bottom:0.8pt solid #000000;\"><div style=\"text-align:center\">characteristic</div></td><td class=\"pad\" style=\" border-top:0.8pt solid\n#000000; border-bottom:0.8pt solid #000000;\"><div style=\"text-align:center\">form</div></td><td class=\"pad\" style=\" border-top:0.8pt solid #000000; border-bottom:0.8pt solid #000000;\"><div style=\"text-align:center\">involved</div></td><td class=\"pad\" style=\" border-top:0.8pt solid #000000;\nborder-right:0.8pt solid #000000; border-bottom:0.8pt solid #000000;\"><div style=\"text-align:center\">resources</div></td></tr><tr height=\"0\" style=\"border:none\"><td width=\"20%\"></td><td width=\"20%\"></td><td width=\"20%\"></td><td width=\"20%\"></td><td width=\"20%\"></td></tr></table></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "What’s your favorite __________________ of entertainment: watching movies, reading books, playing video games, etc.?",
+          "answer": "form"
+        },
+        {
+          "q": "One __________________ of a good game is that it is challenging—it isn’t too easy or too difficult.",
+          "answer": "characteristic"
+        },
+        {
+          "q": "You may be able to __________________ great things in a video game (e.g., win wars, build cities), but do nothing in real life.",
+          "answer": "accomplish"
+        },
+        {
+          "q": "A country’s _____________________ are not only its natural ones—such as land and oil—but also its people, such as skilled workers and great thinkers.",
+          "answer": "resources"
+        },
+        {
+          "q": "important",
+          "answer": "C"
+        },
+        {
+          "q": "to reach a goal",
+          "answer": "A"
+        },
+        {
+          "q": "the act of working together",
+          "answer": "D"
+        },
+        {
+          "q": "being a part of something",
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

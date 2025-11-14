@@ -1,0 +1,230 @@
+{
+  "title": "Reading Level 1 Test 8",
+  "sections": [
+    {
+      "type": "tf",
+      "instructions": "DIRECTIONS: Read each statement and decide if it is True or False according to the reading passage.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Reading Comprehension\nReview<br/><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:12pt\">NEWSWATCH\nJune 21, 2012</span><span style=\"font-size:14pt\"><br/><br/>LIONS KILLED NEAR\nNAIROBI</span></b><br/></div><br/>Yesterday morning, six lions were killed in Kitengela, just 15\nkilometers south of Nairobi National Park. The killings have sent shock waves across Kenya and around\nthe world.<br/><br/>Nairobi National Park is one of the most visited protected areas in Africa. The\npark is just a ten-minute ride from downtown Nairobi, and is therefore a popular tourist destination.\nHowever, the park’s location close to residential areas and farmlands has led to conflicts\nbetween farmers and lions.<br/><br/>Part of the problem is that the park is fenced only to the east,\nnorth, and west—the sides closest to the city. Consequently, zebras and other wild animals are\nable to migrate across the park’s unfenced southern border. Lions and other predators follow\nthem. Some cross into residential areas such as Kitengela, and kill farmers’ livestock. As a\nresult, the farmers become angry and kill the big cats. This seems to be the cause of the latest\nkillings. <br/><br/>The Kenyan government says it will find and arrest the killers of the Kitengela\nSix. Local community leaders, however, argue that the government does not really take seriously the\nfarmers’ livestock losses. Because of this conflict, says conservationist Paula Kahumbu, Kenya\nmust find “a lasting solution that will enable people to benefit from living lions.”\n<br/><br/>Kahumbu and other conservationists are afraid for the lions’ future. For much of the\npast decade, Kenya has been losing 100 lions a year. This is largely due to habitat loss, but also\nbecause of lion killings. Unless there is a way to solve the human–lion conflict, Kenya’s\nlions could disappear in 20 years.<br/><br/><b></b></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "Many tourists visit Nairobi National Park.",
+          "answer": "T"
+        },
+        {
+          "q": "There is a fence around all four sides of the park.",
+          "answer": "F"
+        },
+        {
+          "q": "When zebras and other animals leave the park, lions follow them.",
+          "answer": "T"
+        },
+        {
+          "q": "Lions killed six farmers near Kitengela.",
+          "answer": "F"
+        },
+        {
+          "q": "Local leaders from Kitengela believe that the Kenyan government doesn’t understand how serious the problem is.",
+          "answer": "T"
+        },
+        {
+          "q": "According to the article, Paula Kahumbu believes she has found a solution to the lion-farmer problem.",
+          "answer": "F"
+        },
+        {
+          "q": "Over the last 10 years, 100 lions have been killed in Kenya.",
+          "answer": "F"
+        },
+        {
+          "q": "Conservationists say that lions could completely disappear from Kenya in 20 years.",
+          "answer": "T"
+        }
+      ]
+    },
+    {
+      "type": "cloze",
+      "instructions": "DIRECTIONS: Read the passage and answer the questions.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Reading Comprehension\nExtension<br/><br/></span></b><b><span style=\"font-size:14pt\"><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\"><br/>The Whooping\nCrane<br/></span><br/></b></div>The beautiful whooping crane is the tallest bird in North America,\nstanding about 5 feet (1.5 meters) tall. The western population lives in north-western Canada during\nthe summer, and migrates to coastal Texas for the winter months. The eastern population spends its\nsummers in Wisconsin and winters in Florida. <br/><br/>When Europeans first came to the continent of\nNorth America, it is estimated that there were about 10,000 whooping cranes. However, during the\n19<sup>th</sup> century, people hunted the crane and gathered their eggs. By 1870, the population was\ndown to around 1,400 birds. The species nearly disappeared in the mid-twentieth century and a 1941\ncount found only 16 living adults. <br/><br/>But since then, these birds have taken a step back from\nextinction. Captive breeding programs and successful re-introduction programs have raised the number\nof birds to nearly 600, including some 200 or so in captivity<sup>1</sup>. Their biggest threat is\nloss of feeding grounds. The areas where the birds spend their winter are protected, but the\nfreshwater wetlands where they feed are in some cases almost completely dry due to\ndrought<sup>2</sup>.<br/><br/>One of the measures used to boost the population of the cranes is\nparticularly innovative. It is called costume-rearing<sup>3</sup>. Handlers wear hand\npuppets<sup>4</sup> on their arm to feed and interact with the chicks<sup>5</sup> that are born in\ncaptivity. Sometimes <b><u>they</u></b> even wear full-length crane costumes to hide the human form.\nHandlers<sup>6</sup> use this costume-rearing technique to make sure the chicks are familiar with\nother whooping cranes when they are finally ready to be released back into the wild. <br/><br/>The\nwhooping crane remains an endangered species, but their growing numbers are a success story for\nconservationists<sup>7</sup><i>.<br/></i><br/><span style=\"font-size:9pt\"><sup>1\n</sup><b>captivity</b>: <i>n. </i>the condition of being kept in a place (such as a zoo or a prison)\nand not being able to leave<br/><sup>2</sup> <b>drought</b>: <i>n. </i>a long-lasting lack of\nrainfall<br/><sup>3</sup><b><sup> </sup>costume-rearing</b>: a costume is clothing worn to hide\none’s identity; rearing means taking care of animals or young children.<br/><sup>4</sup> <b>hand\npuppet</b>: a doll that is controlled by putting one’s hand in it<br/><sup>5 \n</sup><b>chicks</b>: <i>n. </i>baby birds<br/><sup>6</sup> <b>handlers</b>: <i>n. </i>people who feed\nand care for animals (in a zoo, for example)<br/><sup>7</sup> <b>conservationists</b>: <i>n.\n</i>people who want to protect animals and other aspects of nature</span></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "Where do birds that spend their summers in Canada go in the winter? a. Florida b. Wisconsin c. Texas",
+          "answer": "C"
+        },
+        {
+          "q": "When was the population of whooping cranes at its lowest point? a. In the 1870’s. b. In the 1940’s. c. In the last few years.",
+          "answer": "B"
+        },
+        {
+          "q": "What is the biggest danger now threatening whooping cranes? a. hunting b. development of their habitat c. lack of water",
+          "answer": "C"
+        },
+        {
+          "q": "The bolded word they in paragraph 4 refers to . . . a. whooping cranes b. handlers c. hand puppets",
+          "answer": "B"
+        },
+        {
+          "q": "Which of the following statements is NOT true of costume-rearing? a. Handlers sometimes wear costumes to look like the birds. b. Handlers use hand puppets to give food to the baby birds. c. Handlers dress the birds in special clothes to keep them warm.",
+          "answer": "C"
+        },
+        {
+          "q": "DIRECTIONS: Decide if this sentence is a main idea (M) or detail (D) in the article. The whooping crane is about 1.5 meters tall.",
+          "answer": ""
+        },
+        {
+          "q": "DIRECTIONS: Decide if this sentence is a main idea (M) or detail (D) in the article. Whooping cranes almost disappeared completely, but now the population is growing.",
+          "answer": ""
+        },
+        {
+          "q": "DIRECTIONS: Decide if this sentence is a main idea (M) or detail (D) in the article. Costume-rearing has helped the whooping crane survive.",
+          "answer": ""
+        },
+        {
+          "q": "DIRECTIONS: Decide if this sentence is a main idea (M) or detail (D) in the article. The hand puppets and costumes worn by handlers match the color and shape of the adult whooping cranes.",
+          "answer": ""
+        },
+        {
+          "q": "DIRECTIONS: Decide if this sentence is a main idea (M) or detail (D) in the article. There are two populations of whooping cranes which follow different migration paths.",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "type": "cloze",
+      "instructions": "",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Reading Skills<br/><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\">Sentences about\nTigers</span></b><br/></div><br/>A. Tigers are disappearing from India due to the loss of their\nhabitat.<br/><br/>B. The animals that tigers hunted in the past are also disappearing. Therefore,\ntigers sometimes kill local people’s livestock.<br/><br/>C. It is illegal to kill tigers. Wild\ntigers are still hunted, however, because their bones, whiskers, and other body parts can be sold as\nmedicines for a lot of money.<br/><br/>D. The huge demand for medicines made from tigers has led to an\nincrease in the killing of tigers.</div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "Read sentence A above. Write the word or phrase that shows cause and effect. _______________",
+          "answer": ""
+        },
+        {
+          "q": "Read sentence B above. Write the word or phrase that shows cause and effect. _______________",
+          "answer": ""
+        },
+        {
+          "q": "Read sentence C above. Write the word or phrase that shows cause and effect. _______________",
+          "answer": ""
+        },
+        {
+          "q": "Read sentence D above. Write the word or phrase that shows cause and effect. _______________",
+          "answer": ""
+        },
+        {
+          "q": "Identify the following sentence as a Cause or an Effect according to the information in sentences A–D. Sentence A - Much of tigers’ habitat has disappeared. _____________",
+          "answer": ""
+        },
+        {
+          "q": "Identify the following sentence as a Cause or an Effect according to the information in sentences A–D. Sentence B - Tigers sometimes hunt livestock rather than wild animals. _____________",
+          "answer": ""
+        },
+        {
+          "q": "Identify the following sentence as a Cause or an Effect according to the information in sentences A–D. Sentence C - Tigers’ body parts are used as medicine. _______________",
+          "answer": ""
+        },
+        {
+          "q": "Identify the following sentence as a Cause or an Effect according to the information in sentences A–D. Sentence D - The number of tigers that have been killed has increased rapidly. _______________",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "instructions": "DIRECTIONS: Read the following excerpt from Richard Turere’s 2013 TED Talk and answer the questions.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">TED Talk Comprehension<br/><br/></span><span style=\"font-size:14pt\"><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\"><br/>Richard Turere—My Invention That\nMade Peace With Lions</span><br/></b></div><b><br/>Part 1<br/><br/></b>This is where I live. I live in\nKenya, at the south parts of the Nairobi National Park. Those are my dad’s cows at the back,\nand behind the cows, that’s the Nairobi National Park. Nairobi National Park is not fenced in\nthe south widely, which means wild animals like zebras migrate out of the park freely. So predators\nlike lions follow them, and this is what they do. They kill our livestock. This is one of the cows\nwhich was killed at night, and I just woke up in the morning and I found it dead, and I felt so bad,\nbecause it was the only bull we had. . . .<br/><br/>So I had to find a way of solving this problem. And\nthe first idea I got was to use fire, because I thought lions were scared of fire. But I came to\nrealize that that didn’t really help, because it was even helping the lions to see through the\ncowshed<sup>1</sup>. So I didn’t give up. I continued.<br/><br/>And a second idea I got was to\nuse a scarecrow<sup>2</sup>. I was trying to trick the lions [into thinking] that I was\nstanding near the cowshed. But lions are very clever. They will come the first day and they see the\nscarecrow, and they go back, but the second day, they’ll come and they say, this thing is not\nmoving here, it’s always here. So he jumps in and kills the animals.<br/><br/>So one night, I was\nwalking around the cowshed with a torch, and that day, the lions didn’t come. And I discovered\nthat lions are afraid of a moving light. So I had an idea.<br/><br/><b>Part 2<br/><br/></b>Since I was a\nsmall boy, I used to work in my room for the whole day, and I even took apart my mom’s new\nradio, and that day she almost killed me, but I learned a lot about electronics. So I got an old car\nbattery, [and] an indicator box. It’s a small device found in a motorcycle, and it\nhelps motorists when they want to turn right or left. It blinks. And I got a switch where I can\nswitch on the lights, on and off. And that’s a small torch from a broken flashlight.<br/><br/>So\nI set up everything. As you can see, the solar panel<sup>3</sup> charges the battery, and the battery\nsupplies the power to the small indicator box. I call it a transformer. And the indicator box makes\nthe lights flash. As you can see, the bulbs face outside, because that’s where the lions come\nfrom. And that’s how it looks to lions when they come at night. The lights flash and trick the\nlions into thinking I was walking around the cowshed, but I was sleeping in my bed.<br/><br/><span style=\"font-size:9pt\"><sup>1</sup> <b>cowshed</b>: <i>n. </i>a farm building used to house\ncows<br/><sup>2</sup> <b>scarecrow</b>: <i>n.</i> an object that looks like a person meant to scare\nbirds and other animals away from crops or livestock<br/><sup>3</sup> <b>solar panel</b>: <i>n. </i>a\ndevice that uses sunlight to make electricity</span></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "Richard Turere felt bad when he found the dead cow because . . .",
+          "options": [
+            "it was the only male cow his family owned.",
+            "it was his favorite cow.",
+            "the cow was a present to him from his father."
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "According to Richard Turere, the use of fire . . .",
+          "options": [
+            "could have destroyed the cowshed.",
+            "might have burned their livestock.",
+            "actually helped the lions hunt."
+          ],
+          "answer": "C"
+        },
+        {
+          "q": "Why were the lions not afraid of the scarecrow?",
+          "options": [
+            "Because it didn’t move around.",
+            "Because it wasn’t big enough.",
+            "Because it didn’t look like a real person."
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "Richard Turere used his mother’s radio to . . .",
+          "options": [
+            "scare away lions with loud noise.",
+            "get a part that he needed for his invention.",
+            "teach himself about electronics."
+          ],
+          "answer": "C"
+        },
+        {
+          "q": "Which of the following is NOT a part used in Richard Turere’s invention?",
+          "options": [
+            "an old automobile battery",
+            "an engine from an old motorcycle",
+            "a switch to control the lights"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "Richard Turere’s invention makes the lions think that . . .",
+          "options": [
+            "there are no cows in the cowshed.",
+            "there is a person in the cowshed.",
+            "they will receive an electrical shock."
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "type": "cloze",
+      "instructions": "DIRECTIONS: Read the sentences below. If the sentence is true or logical, mark it YES. If the sentence is not true or not logical, mark it NO.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "A pet cat is a good example of a wild animal.",
+          "answer": "N"
+        },
+        {
+          "q": "When birds migrate , they generally travel long distances.",
+          "answer": "Y"
+        },
+        {
+          "q": "If you solve a problem, you make it worse.",
+          "answer": "N"
+        },
+        {
+          "q": "A president is the leader of a country’s government .",
+          "answer": "Y"
+        },
+        {
+          "q": "He’s afraid of flying, so he drives his car or takes a train.",
+          "answer": "Y"
+        },
+        {
+          "q": "If something benefits you, it helps you.",
+          "answer": "Y"
+        },
+        {
+          "q": "A conflict is a friendly discussion.",
+          "answer": "N"
+        },
+        {
+          "q": "She didn’t take the plan seriously . She laughed at it.",
+          "answer": "Y"
+        }
+      ]
+    }
+  ]
+}

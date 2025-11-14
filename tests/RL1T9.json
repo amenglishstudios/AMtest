@@ -1,0 +1,206 @@
+{
+  "title": "Reading Level 1 Test 9",
+  "sections": [
+    {
+      "type": "tf",
+      "instructions": "DIRECTIONS: Read each statement and decide if it is True or False according to the reading passage.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Reading Comprehension\nReview<br/><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\">Art in the\nCommunity</span></b><br/></div><br/>On a street in New Orleans is an old building. It used to be a\ngrocery store. But now it is vacant. On the boards covering the windows are stickers. Each sticker\nsays “I wish this was . . . ” Someone has written “full of food” on one of\nthe stickers. <br/><br/>When we think of public art, we often think of sculptures or other large works\nof art in city centers. Candy Chang’s art, however, is somewhere else. Chang makes her art in a\ncity’s older or poorer neighborhoods. She uses the outside walls of vacant buildings as her\ncanvas. She paints, writes messages, or puts stickers on them. Chang wants to reach out to people\nwith her art. She sees it as the start of a conversation—a conversation with local residents.\n<br/><br/>In 2010, Chang started the “I Wish This Was” project in New Orleans. Chang asked\nresidents to look at the abandoned buildings in their community. She wanted them to think about what\nelse could be there. She printed hundreds of small stickers and stuck them on these buildings. The\nstickers said, “I wish this was” in large letters and included a space for people to\nwrite. Anyone could write anything. Chang was amazed at the reaction. Hundreds of residents wrote on\nthe stickers. Someone wrote, “I wish this was a grocery store.” Another person wrote,\n“I wish this was Heaven.” <br/><br/>There are many abandoned buildings in neighborhoods\naround the world. It’s hard for residents to create a close neighborhood if the streets are\nfull of empty buildings. By making art that gives residents a voice, Chang hopes to build stronger\ncommunities. Chang’s art projects get residents thinking and talking about problems in their\ncommunity. This initiative may help city planners to create better cities—ones that truly meet\nthe needs of residents.<br/><br/><b></b></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "Most of Candy Chang’s art involves sculptures and large paintings.",
+          "answer": "F"
+        },
+        {
+          "q": "Most of Candy Chang’s art can be found in neighborhoods where rich people live.",
+          "answer": "F"
+        },
+        {
+          "q": "Candy Chang looks at her art as a way to communicate with people.",
+          "answer": "T"
+        },
+        {
+          "q": "The “I Wish This Was” project involved only one abandoned building in New Orleans.",
+          "answer": "F"
+        },
+        {
+          "q": "Candy Chang wrote her plans for the building on stickers, and attached the stickers to the building.",
+          "answer": "F"
+        },
+        {
+          "q": "Candy Chang was surprised at the way people responded to her art project.",
+          "answer": "T"
+        },
+        {
+          "q": "According to the article, empty buildings may negatively affect a neighborhood.",
+          "answer": "T"
+        },
+        {
+          "q": "According to the article, Candy Chang’s project might serve as a guide for city planners.",
+          "answer": "T"
+        }
+      ]
+    },
+    {
+      "type": "cloze",
+      "instructions": "DIRECTIONS: The article has four paragraphs, a–d. Write the letter of the paragraph which contains the following information.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Reading Comprehension\nExtension<br/><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\">The\nRecycled Orchestra<br/></span><br/></b></div><b>Paragraph A</b><br/>Not far from Asunci<span style=\"color:#252525\">ó</span>n, the capital of Paraguay, is the village of Cateura. It sits on\ntop of a massive landfill<sup>1</sup> that receives 1,500 tons of new trash each day. The village is\nhome to several thousand families who make a living by sorting through the waste, separating out\nwhatever is useful or whatever can be sold to the local recycling industry. According to\nUNICEF<sup>2</sup>, Cateura is a community with extreme poverty, illiteracy, and pollution.\nAmazingly, it’s also home to an orchestra—one made up of local children whose instruments\nare made entirely from recycled trash.<br/><b><br/>Paragraph B</b><br/>“Los Reciclados,” or\nThe Recycled Orchestra, was formed several years ago when environmentalist and musician Favio\nChávez decided to open a music school. He partnered with a local garbage picker Nicolás\nGómez—a genius at building useful things from trash. There was no money for real\ninstruments, so together they made instruments from the trash around them. Oil drums became violins\nand cellos, water pipes and bottle caps turned into flutes, and packing crates grew into guitars. The\nfact that the instruments are made from recycled trash has a practical purpose as well: The kids can\nsafely carry them. For many children, it was impossible to give them a violin to take home because\nthey had nowhere to keep it and their parents were afraid they would be robbed. A real violin would\nbe worth more than a house in Cateura.   <br/><b><br/>Paragraph C</b><br/>Chávez started\ntraining just a few children, but today the orchestra is made up of 35 kids from Cateura. Chávez\ngives music lessons to another 200, who also learn how to build their own recycled instruments.\nCateura may seem like the unlikeliest of homes for a classical music community. But for the children\nwho’ve come to love it, music has given them a greater purpose. These ingenious musicians have\nmanaged to transform their reality into beautiful symphonies by Mozart and Beethoven. As one young\nmusician says, “My life would be worthless without music.”<br/><b><br/>Paragraph\nD</b><br/>The Recycled Orchestra has become the focus of international attention over the last few\nyears. It is the subject of a documentary film about the kids, <i>Landfill Harmonic</i>, which has\ngone viral. The orchestra has gone on a tour of several South American countries, with plans to tour\nsoon in the U.S. and Europe. Meanwhile, Chávez will continue his work in Cateura. \"Sports\ncan be competitive. Music causes children to connect and feel they are building something together.\nOur orchestra feels special because the children make beauty out of garbage.\"<br/><br/><span style=\"font-size:9pt\"><sup>1 </sup><b>landfill</b>: <i>n. </i>a place where garbage is buried in the\nground<br/><sup>2</sup> <b>UNICEF</b>: United Nations Children’s Fund<br/><br/></span><span style=\"font-size:12pt\"></span></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "Information about how the orchestra has become famous – Paragraph ___",
+          "answer": ""
+        },
+        {
+          "q": "A summary of the growth of the orchestra – Paragraph ___",
+          "answer": ""
+        },
+        {
+          "q": "A description of the village of Cateura – Paragraph ___",
+          "answer": ""
+        },
+        {
+          "q": "Reasons why the instruments were made from recycled materials – Paragraph ___",
+          "answer": ""
+        },
+        {
+          "q": "DIRECTIONS: Fill in the blanks with words or phrases from the article. Don’t use more than two words or numbers for each blank. Every day (a) _____________ of new garbage arrives in Cateura. Favio Ch á vez has two occupations: He is an environmentalist and a (b) _______________. Ch á vez and G ó mez make guitars from (c) _____________. Today there are (d) _____________ members of the orchestra and Ch á vez also has (e) ______________ music students. Favio Ch á vez thinks that playing music together can make children cooperative, while playing sports may make them (f) _____________",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "type": "ma",
+      "instructions": "DIRECTIONS: Read the sentences below. Choose the correct option (a–h) that the underlined word refers to in the article. One option is extra.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Reading Skills<br/><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\">How to Turn Anything into Something\nElse<br/></span></b></div><br/>Philadelphia is well-known for its public art.<b> </b>There are\nsome famous sculptures, such as the LOVE sculpture in JFK Plaza, where tourists often stand to have\ntheir photos taken. There are also well-known murals<sup>1</sup>. One of the most interesting of\nthese is called “How to Turn Anything into Something Else.” It was created by 31\nstudents, ages 10–15. The students worked with a group of artists from a nationally known art\ncollective. They helped the students access their own imaginations.<br/><br/>The students took a piece\nof paper and drew the head of an animal at the top. When they had finished drawing it, they folded\nthe paper so that only the neck of their drawing was visible. Then it was passed to the next student,\nwho drew a torso<sup>2</sup> of an animal. The folding and passing was repeated until an entire\ncreature was drawn on the paper. This exercise was designed to show students that art does not have\nto end the way it begins. The students created hundreds of images over the summer. They were directly\nincluded in the mural.<br/><br/><span style=\"font-size:9pt\"><sup>1</sup><b> mural</b>: <i>n. </i>a\nlarge painting that is painted directly on a wall<br/><sup>2</sup> <b>torso</b>: <i>n. </i>the part of\nthe body between the neck and the legs<br/></span><br/><br/></div><div class=\"default\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"95%\"><tr valign=\"baseline\"><td width=\"4%\"><div class=\"choice\">a.</div></td><td width=\"96%\"><span class=\"default\">the head of an animal</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">b.</div></td><td><span class=\"default\">hundreds of images\nof creatures</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">c.</div></td><td><span class=\"default\">murals in Philadelphia</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">d.</div></td><td><span class=\"default\">the students</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">e.</div></td><td><span class=\"default\">the folded piece of\npaper</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">f.</div></td><td><span class=\"default\">the mural “How to Turn Anything Into Something Else”</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">g.</div></td><td><span class=\"default\">the Love\nsculpture</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">h.</div></td><td><span class=\"default\">the group of artists</span></td></tr></table></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "One of the most interesting of these is called “How to Turn Anything into Something Else”.",
+          "answer": "C"
+        },
+        {
+          "q": "It was created by 31 students.",
+          "answer": "F"
+        },
+        {
+          "q": "They helped the students access their own imaginations.",
+          "answer": "H"
+        },
+        {
+          "q": "They helped the students access their own imaginations.",
+          "answer": "D"
+        },
+        {
+          "q": "When they had finished drawing it , they folded the paper so that only the neck of their drawing was visible.",
+          "answer": "A"
+        },
+        {
+          "q": "Then it was passed to the next student, who drew a torso 2 of an animal.",
+          "answer": "E"
+        },
+        {
+          "q": "They were directly incorporated into the mural.",
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "type": "mc",
+      "instructions": "DIRECTIONS: Read the excerpt from Candy Chang’s 2012 TED Talk and answer the questions.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">TED Talk Comprehension<br/><br/></span><span style=\"font-size:14pt\"><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\"><br/>CANDY CHANG—Before I Die, I Want\nto . . .</span><br/></b></div><b><br/>Paragraph 1<br/><br/></b>There are a lot of ways the people around\nus can help improve our lives. We don’t bump into every neighbor, so a lot of wisdom never gets\npassed on, though we do share the same public spaces. . . .<br/><br/><b>Paragraph 2<br/><br/></b>I live\nnear this house, and I thought about how I could make it a nicer space for my neighborhood, and I\nalso thought about something that changed my life forever.<br/><br/><b>Paragraph 3<br/><br/></b>In 2009,\nI lost someone I loved very much. Her name was Joan, and she was a mother to me, and her death was\nsudden and unexpected. And I thought about death a lot, and this made me feel deep gratitude for the\ntime I’ve had, and brought clarity to the things that are meaningful to my life now. But I\nstruggle to maintain this perspective in my daily life. I feel like it’s easy to get caught up\nin the day-to-day, and forget what really matters to you.<br/><br/><b>Paragraph 4<br/><br/></b>So, with\nhelp from old and new friends, I turned the side of this abandoned house into a giant chalkboard and\nstenciled it with a fill-in-the-blank sentence: “Before I die, I want to ...”  So\nanyone walking by can pick up a piece of chalk, reflect on their lives, and share their personal\naspirations in public space.<br/><br/><b>Paragraph 5<br/><br/></b>I didn’t know what to expect from\nthis experiment, but by the next day, the wall was entirely filled out, and it kept growing...</div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "In paragraph 1, the phrase bump into is closest in meaning to . . .",
+          "options": [
+            "meet unexpectedly",
+            "become close to",
+            "speak with"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "In paragraph 2, the person named Joan was . . .",
+          "options": [
+            "someone who had once lived in the abandoned house",
+            "an important person in Candy Chang’s life",
+            "a friend who helped Candy Chang with her project"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "In paragraph 2, Candy Change says “I feel like it’s easy to get caught up in the day-to-day ...” The phrase get caught up in the day to day means . . .",
+          "options": [
+            "become busy with ordinary things in life",
+            "finally complete an important project",
+            "struggle with problems and loss"
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "What does the “Before I die, I want to ...” project have in common with the “I Wish This Was” project?",
+          "options": [
+            "Both involved putting stickers on a wall.",
+            "Both involved using chalk to write messages.",
+            "Both involved messages left by neighbors."
+          ],
+          "answer": "A"
+        },
+        {
+          "q": "In which paragraph does Candy Chang explain how she did her project?",
+          "options": [
+            "Paragraph 1",
+            "Paragraph 4",
+            "Paragraph 5"
+          ],
+          "answer": "B"
+        },
+        {
+          "q": "In which paragraph does Candy Chang give the results of her project?",
+          "options": [
+            "Paragraph 2",
+            "Paragraph 3",
+            "Paragraph 5"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "type": "ma",
+      "instructions": "DIRECTIONS: Match the words (a–h) below with their definitions below.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"></div><div class=\"default\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"95%\"><tr valign=\"baseline\"><td width=\"4%\"><div class=\"choice\">a.</div></td><td width=\"96%\"><span class=\"default\">abandoned</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">b.</div></td><td><span class=\"default\">neighborhood</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">c.</div></td><td><span class=\"default\">reach out</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">d.</div></td><td><span class=\"default\">initiative</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">e.</div></td><td><span class=\"default\">reaction</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">f.</div></td><td><span class=\"default\">messages</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">g.</div></td><td><span class=\"default\">public</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">h.</div></td><td><span class=\"default\">stickers</span></td></tr></table></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "a section of a town or a city",
+          "answer": "B"
+        },
+        {
+          "q": "open and available to many people, not just a few",
+          "answer": "G"
+        },
+        {
+          "q": "empty; not in use",
+          "answer": "A"
+        },
+        {
+          "q": "communications; information that is sent to someone",
+          "answer": "F"
+        },
+        {
+          "q": "response; the way someone feels when something happens",
+          "answer": "E"
+        },
+        {
+          "q": "pieces of paper that can be attached to some surface",
+          "answer": "H"
+        },
+        {
+          "q": "to try to communicate with someone; to try to get someone involved",
+          "answer": "C"
+        },
+        {
+          "q": "a project; a plan; a program",
+          "answer": "D"
+        }
+      ]
+    }
+  ]
+}

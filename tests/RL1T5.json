@@ -1,0 +1,165 @@
+{
+  "title": "Reading Level 1 Test 5",
+  "sections": [
+    {
+      "type": "tf",
+      "instructions": "DIRECTIONS: Read each statement and decide if it is True or False according to the reading passage.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Reading Comprehension\nReview<br/><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\">Preserving\nthe Past<br/><br/></span></b></div>Every month, people worldwide upload about 6 billion photos to the\nInternet. Photography is now so common, it is easy to forget that photographs—and the memories\nthey hold—can be very precious.<br/><br/>MEMORY ARCHIVE<sup>1</sup><br/><br/>In a cold, windowless\nbasement in Washington D.C., there is a man who knows the real value of a photograph. Since 1983,\nBill Bonner has looked after National Geographic’s photo archive. The archive holds around 8\nmillion prints—many over 100 years old.<br/><br/>In his long career, Bonner has looked at\nhundreds of thousands of photos. He believes each image<b> </b>holds a memory. Some of the pictures\nrecord<b> </b>moments in history. Many others, he says, show “people like us, just doing our\nthing, living our life.” Many of these memories have been forgotten by the outside world. But\nthey still have the power to tell us a lot about the past.<br/><br/>IMAGES FROM THE PAST<br/><br/>When\nthe archive’s earliest photos were taken, photography was difficult and expensive.\nPhotographers needed special equipment<b> </b>and chemicals to develop<sup>2</sup> their pictures.\nCameras were large and heavy—some weighed 20 pounds (9 kilos) or more. Early explorers used\nthese massive cameras to photograph people and places that most people had never\nseen.<br/><br/>Photography expeditions took several months, or even years. “They dedicated their\nlives to this,” Bonner says. Bonner feels responsible for keeping these memories alive, for\npeople now and in the future. Many of the images are fragile, and he has to be very careful to\npreserve them. For Bonner, these figures from the distant past are almost like his\nancestors<sup>3</sup>. “For me,” he says, “it’s like opening your\ngrandparents’ family album for the first time.”<br/><br/><span style=\"font-size:8pt\"><sup>1</sup><b>archive</b>: <i>n.</i> a place that stores historical\nmaterial<br/><sup>2</sup><b>develop</b>: <i>v.</i> to make a photograph using a special\nprocess<br/><sup>3</sup><b>ancestor</b>: <i>n.</i> someone related to you who lived in the\npast<br/><br/></span><span style=\"font-size:12pt\"></span></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "People around the world take about 6 billion photos every month.",
+          "answer": "F"
+        },
+        {
+          "q": "The author says that because photographs are so common today, people don’t realize how important they can be.",
+          "answer": "T"
+        },
+        {
+          "q": "All of the photos in the National Geographic Archive in Washington, D.C., are over 100 years old.",
+          "answer": "F"
+        },
+        {
+          "q": "The photos in the archive include both historic photos and images of day-to-day life.",
+          "answer": "T"
+        },
+        {
+          "q": "The author indicates that early cameras were larger and heavier than today’s cameras.",
+          "answer": "T"
+        },
+        {
+          "q": "Early photography expeditions could last for months or sometimes years.",
+          "answer": "T"
+        },
+        {
+          "q": "Among the photographs in the National Geographic Archive are some photos of Bonner’s ancestors.",
+          "answer": "F"
+        }
+      ]
+    },
+    {
+      "type": "cloze",
+      "instructions": "DIRECTIONS: Read the passage and answer the questions.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">Reading Comprehension\nExtension<br/><br/></span><span style=\"font-size:14pt\"><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\"><br/>Remember This<br/><br/></span></b></div>There is a 41-year-old woman, an\nadministrative assistant from California known as \"AJ,\" who remembers almost every day of\nher life since age 11. There is an 85-year-old man, a retired lab technician called \"EP,\"\nwho remembers only his most recent thought. She might have the best memory in the world. He could\nvery well have the worst.<br/><br/>\"My memory flows like a movie—nonstop and\nuncontrollable,\" says AJ. She remembers that at 12:34 p.m. on Sunday, August 3, 1986, a young\nman she knew called her on the telephone.  She remembers that on March 28, 1992, she had lunch\nwith her father at the Beverly Hills Hotel. She remembers world events and trips to the grocery\nstore, the weather and her emotions. Virtually every day is there. She’s not easily\nstumped.<br/><br/>There have been a few people over the years with extremely good memories. Kim Peek is\nsaid to have memorized nearly 12,000 books (he reads a page in 8 to 10 seconds). \"S,\" a\nRussian journalist who was studied for 30 years by the Russian psychologist Alexander Luria, could\nremember impossibly long strings of words and numbers years after he'd first heard them. But AJ\nis unique. Her amazing memory is not for facts or figures, but for her own life. Indeed, her memory\nis so unusual and so poorly understood that scientists who have been studying her for the past seven\nyears had to think of a new medical term to describe her condition: hyperthymestic\nsyndrome.<br/><br/>EP is friendly and easy to talk to. He laughs a lot. But in 1960, a virus destroyed\nthe medial temporal lobes in his brain, and with them most of EP's memory. The medial temporal\nlobes—there's one on each side of the brain—include a part called the hippocampus\nthat turns our experiences into long-term memories. The memories aren't actually stored in the\nhippocampus—they stay somewhere else, in the brain's outer layer, the neocortex—but\nthe hippocampus area is the part of the brain that makes them stick. EP's hippocampus was\ndestroyed, and without it he is like a digital camera without a working memory chip. He sees, but he\ndoesn't record.<br/><br/>EP can't make new memories, and he can't remember old memories\neither, at least not since 1960. His childhood, his service in World War II—all that is\nperfectly clear to him. But to him, gas still costs less than a dollar a gallon, and the moon landing\nnever happened.</div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "The author mentions specific dates in paragraph 2 in order to . . . a. point out some important events in AJ’s life b. show how good her memory is c. indicate that she sometimes forgets things",
+          "answer": "B"
+        },
+        {
+          "q": "Alexander Luria is a . . . a. scientist b. journalist c. lab technician",
+          "answer": "A"
+        },
+        {
+          "q": "The sentence “She’s not easily stumped” in paragraph 2 means that AJ rarely . . . a. gives the wrong answer b. responds to questions c. becomes upset",
+          "answer": "A"
+        },
+        {
+          "q": "AJ is different to Kim Peek and S because she can remember . . . a. every word that she reads b. long numbers c. details of her own life",
+          "answer": "C"
+        },
+        {
+          "q": "The author indicates that the scientists from the University of California . . . a. have never studied someone with a memory like AJ’s b. finally understand why AJ has such an amazing memory c. studied both AJ’s and EP’s memories",
+          "answer": "A"
+        },
+        {
+          "q": "EP’s memory problems were caused by . . . a. a war injury b. a disease c. a car accident",
+          "answer": "B"
+        },
+        {
+          "q": "According to the article, long-term memories are stored in . . . a. the hippocampus b. the medial temporal lobes c. the neocortex",
+          "answer": "C"
+        },
+        {
+          "q": "Why does the author compare EP to “a digital camera without a working memory chip”? a. He can remember images, but he can’t understand words. b. He can remember perfectly, but he can’t speak. c. He can see things, but he forgets them immediately.",
+          "answer": "C"
+        },
+        {
+          "q": "EP is most likely to remember . . . a. a family trip he took as a child b. a friend’s wedding in 1970 c. what he had for breakfast this morning",
+          "answer": "A"
+        },
+        {
+          "q": "Reading Skills Selfies An article that appeared in Time magazine around two years ago listed the places where people take the most selfies—low-tech photos of themselves. The area with the highest number of selfies per person was Makati City, which is the financial center of Manila in the Philippines. The population of Makati City is about 1.5 million people. People there took nearly 260 selfies per 100,000 persons. Next came Manhattan, a part of New York City. The population of Manhattan is just under 400,000. In Manhattan, people took approximately 200 photos of themselves per 100,000 residents. DIRECTIONS: Read the passage above and write down in the space provided the 5 approximate numbers in the order in which they appear. Write down the word that indicates approximation and the number (e.g. almost 500 ) . Do not write more than three words or numbers. __________________________________ __________________________________ __________________________________ __________________________________ __________________________________",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "type": "ma",
+      "instructions": "DIRECTIONS: Read the excerpt from Cesar Kuriyama’s 2012 TED Talk. Match each question below with the paragraph (A–E) where the answer to the question can be found.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><b><span style=\"font-size:14pt\">TED Talk Comprehension<br/><br/></span></b><div style=\"text-align:center\"><b><span style=\"font-size:14pt\">Cesar Kuriyama—One Second Every\nDay<br/></span></b></div><b><br/>Paragraph A<br/><br/></b>. . . So the first of those projects ended up\nbeing something I called “One Second Every Day.” Basically, I’m recording one\nsecond of every day of my life for the rest of my life, chronologically compiling these one-second\ntiny slices of my life into one single continuous video until, you know, I can’t record them\nanymore.<br/><br/><b>Paragraph B<br/><br/></b>The purpose of this project is, one: I hate not remembering\nthings that I’ve done in the past. There’s all these things that I’ve done with my\nlife that I have no recollection of unless  someone brings it up, and sometimes I think,\n“Oh yeah. That’s something that I did.” And something that I realized early on in\nthe project was that if I wasn’t doing anything interesting, I would probably forget to record\nthe video. So the day—the first time that I forgot, it really hurt me, because it’s\nsomething that I really wanted to—from the moment that I turned 30, I wanted to keep this\nproject going  until forever, and having missed that one second, I realized, it just kind of\ncreated this thing in my head where I never forgot ever again.<br/><br/><b>Paragraph C<br/><br/></b>So if\nI live to see 80 years of age, I’m going to have a five- hour video that encapsulates 50 years\nof my life. When I turn 40, I’ll have a one-hour video that includes just my 30s. This has\nreally invigorated me day-to-day, when I wake up, to try and do something interesting with my\nday.<br/><br/><b>Paragraph D<br/><br/></b><div style=\"margin-right:0pt\">Now, one of the things that I\nhave issues with is that, as the days and weeks and months go by, time just seems to start blurring\nand blending into each other and, you know, I hated that, and visualization is the way to trigger\nmemory. You know, this project for me is a way for me to bridge that gap and remember everything that\nI’ve done. Even just this one second allows me to remember everything else I did that one day.\nIt’s difficult, sometimes, to pick that one second. On a good day, I’ll have maybe three\nor four seconds that I really want to choose, but I’ll just have to narrow it down to one, but\neven narrowing it down to that one allows me to remember the other three anyway.<br/><br/><b>Paragraph\nE<br/><br/></b></div><div style=\"margin-right:11pt\">. . . One of the reasons that I took my year off\nwas to spend more time with my family, and this really tragic thing happened where my sister-in-law,\nher intestine suddenly strangled one day, and we took her to the emergency room, and she was, she was\nin really bad shape. We almost lost her a couple of times, and I was there with my brother every day.\nIt helped me realize something else during this project, is that recording that one second on a\nreally bad day is extremely difficult. It’s not—we tend to take our cameras out when\nwe’re doing awesome things. Or we’re, “Oh, yeah, this party, let me take a\npicture.” But we rarely do that when we’re having a bad day, and something horrible is\nhappening. And I found that it’s actually been very, very important to record even just that\none second of a really bad moment. It really helps you appreciate the good times. It’s not\nalways a good day, so when you have a bad one, I think it’s important to remember it, just as\nmuch as it is important to remember the [good] days.<br/><br/></div></div><div class=\"default\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"95%\"><tr valign=\"baseline\"><td width=\"4%\"><div class=\"choice\">a.</div></td><td width=\"96%\"><span class=\"default\">Paragraph A</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">b.</div></td><td><span class=\"default\">Paragraph B</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">c.</div></td><td><span class=\"default\">Paragraph\nC</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">d.</div></td><td><span class=\"default\">Paragraph D</span></td></tr><tr valign=\"baseline\"><td><div class=\"choice\">e.</div></td><td><span class=\"default\">Paragraph E</span></td></tr></table></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "Why did Cesar Kuriyama begin his project?",
+          "answer": "B"
+        },
+        {
+          "q": "Why will Cesar Kuriyama not forget to work on his project again?",
+          "answer": "B"
+        },
+        {
+          "q": "How long is each recording of Cesar Kuriyama’s project?",
+          "answer": "A"
+        },
+        {
+          "q": "Why is it sometimes difficult for Cesar Kuriyama to choose which part of his day to record?",
+          "answer": "D"
+        },
+        {
+          "q": "Why does Cesar Kuriyama sometimes record bad experiences?",
+          "answer": "E"
+        },
+        {
+          "q": "How old was Cesar Kuriyama when he began his project?",
+          "answer": "B"
+        },
+        {
+          "q": "What is Cesar Kuriyama’s project?",
+          "answer": "A"
+        },
+        {
+          "q": "How long will Cesar Kuriyama’s movie be if he lives to be 80?",
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "type": "cloze",
+      "instructions": "DIRECTIONS: Complete the sentences with the words in the box.",
+      "passage": "\n<div class=\"spacer\"> </div>\n<div class=\"default\"><br/><div style=\"font-size:2pt\"></div><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"55%\"><tr valign=\"top\"><td class=\"pad\" style=\" border-left:0.8pt solid #000000; border-top:0.8pt solid #000000;\" valign=\"middle\"><div style=\"text-indent:4pt\">cameras </div></td><td class=\"pad\" style=\" border-top:0.8pt\nsolid #000000;\" valign=\"middle\"><div style=\"text-indent:4pt\">equipment  </div></td><td class=\"pad\" style=\" border-top:0.8pt solid #000000;\" valign=\"middle\"><div style=\"text-indent:4pt\">image</div></td><td class=\"pad\" style=\" border-top:0.8pt solid #000000; border-right:0.8pt solid\n#000000;\" valign=\"middle\"><div style=\"text-indent:4pt\">look after</div></td></tr><tr valign=\"top\"><td class=\"pad\" style=\" border-left:0.8pt solid #000000; border-bottom:0.8pt solid #000000;\" valign=\"middle\"><div style=\"text-indent:4pt\">precious</div></td><td class=\"pad\" style=\"\nborder-bottom:0.8pt solid #000000;\" valign=\"middle\"><div style=\"text-indent:4pt\">preserve</div></td><td class=\"pad\" style=\" border-bottom:0.8pt solid #000000;\" valign=\"middle\"><div style=\"text-indent:4pt\">record</div></td><td class=\"pad\" style=\" border-right:0.8pt\nsolid #000000; border-bottom:0.8pt solid #000000;\" valign=\"middle\"><div style=\"text-indent:4pt\">responsible</div></td></tr><tr height=\"0\" style=\"border:none\"><td width=\"26%\"></td><td width=\"26%\"></td><td width=\"25%\"></td><td width=\"23%\"></td></tr></table></div>\n<div class=\"spacer\"> </div>\n",
+      "items": [
+        {
+          "q": "Could you do me a favor and ____________________ my dog while I’m on vacation?",
+          "answer": "look after"
+        },
+        {
+          "q": "Digital ____________________ don’t require film.",
+          "answer": "cameras"
+        },
+        {
+          "q": "They hired a professional photographer who was ____________________ for taking pictures at their wedding.",
+          "answer": "responsible"
+        },
+        {
+          "q": "These days, photographers don’t need special ____________________ to develop their photos.",
+          "answer": "equipment"
+        },
+        {
+          "q": "A(n) ____________________ can be a drawing, a photo, or a painting.",
+          "answer": "image"
+        },
+        {
+          "q": "Museums ____________________ old photographs so we can see what life was like in the past.",
+          "answer": "preserve"
+        },
+        {
+          "q": "This old photo of my grandmother is very ____________________ to me.",
+          "answer": "precious"
+        },
+        {
+          "q": "Photographs and videos can help people ____________________ their family histories.",
+          "answer": "record"
+        }
+      ]
+    }
+  ]
+}
