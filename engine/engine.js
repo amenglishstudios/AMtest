@@ -6,6 +6,9 @@
 const WEB3FORMS_ACCESS_KEY = "001de0f4-2ade-44b4-8915-9ef482cda1da"; // your token
 const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
 
+// Matching-letter choices for MA sections (Cargotecture uses A–G)
+const MATCHING_CHOICES = ["A", "B", "C", "D", "E", "F", "G"];
+
 // ==============================
 // LOAD TEST DATA
 // ==============================
@@ -18,7 +21,11 @@ async function loadTest() {
     renderTest();
   } catch (err) {
     const app = document.getElementById("app");
-    if (app) app.innerHTML = `<div style="color:red">Failed to load test data: ${String(err)}</div>`;
+    if (app) {
+      app.innerHTML = `<div style="color:red">Failed to load test data: ${String(
+        err
+      )}</div>`;
+    }
   }
 }
 document.addEventListener("DOMContentLoaded", loadTest);
@@ -40,7 +47,7 @@ function renderTest() {
       <label for="student_name" style="font-weight:600; margin-right:8px;">Student Name:</label>
       <input id="student_name" type="text" placeholder="First Last" style="padding:6px; font-size:16px; min-width:260px;">
     </div>
-  `;
+ `;
 
   // Sections
   (data.sections || []).forEach((section, sIdx) => {
@@ -54,12 +61,16 @@ function renderTest() {
       html += `<div class="passage">`;
       if (typeof section.passage === "string") {
         const containsHTML = /<\/?[a-z][\s\S]*>/i.test(section.passage);
-        html += containsHTML ? section.passage : escapeHTML(section.passage).replace(/\n/g, "<br>");
+        html += containsHTML
+          ? section.passage
+          : escapeHTML(section.passage).replace(/\n/g, "<br>");
       } else {
         // object map like { A: "text", B: "text" }
         Object.entries(section.passage).forEach(([label, text]) => {
           const containsHTML = /<\/?[a-z][\s\S]*>/i.test(text);
-          const safe = containsHTML ? text : escapeHTML(String(text)).replace(/\n/g, "<br>");
+          const safe = containsHTML
+            ? text
+            : escapeHTML(String(text)).replace(/\n/g, "<br>");
           html += `<p><b>${escapeHTML(label)}:</b> ${safe}</p>`;
         });
       }
@@ -72,7 +83,9 @@ function renderTest() {
       items.forEach((item, i) => {
         html += `
           <div class="question">
-            <div class="question-number">${i + 1}. ${escapeHTML(item.q || "")}</div>
+            <div class="question-number">${i + 1}. ${escapeHTML(
+              item.q || ""
+            )}</div>
             <select id="q_tf_${sIdx}_${i}">
               <option value="">---</option>
               <option value="T">True</option>
@@ -83,13 +96,17 @@ function renderTest() {
       });
     } else if (section.type === "mc") {
       items.forEach((item, i) => {
-        const opts = (item.options || []).map((o, idx) => {
-          const letter = String.fromCharCode(65 + idx); // A, B, C...
-          return `<option value="${letter}">${escapeHTML(String(o))}</option>`;
-        }).join("");
+        const opts = (item.options || [])
+          .map((o, idx) => {
+            const letter = String.fromCharCode(65 + idx); // A, B, C...
+            return `<option value="${letter}">${escapeHTML(String(o))}</option>`;
+          })
+          .join("");
         html += `
           <div class="question">
-            <div class="question-number">${i + 1}. ${escapeHTML(item.q || "")}</div>
+            <div class="question-number">${i + 1}. ${escapeHTML(
+              item.q || ""
+            )}</div>
             <select id="q_mc_${sIdx}_${i}">
               <option value="">---</option>
               ${opts}
@@ -101,25 +118,29 @@ function renderTest() {
       items.forEach((item, i) => {
         html += `
           <div class="question">
-            <div class="question-number">${i + 1}. ${escapeHTML(item.q || "")}</div>
+            <div class="question-number">${i + 1}. ${escapeHTML(
+              item.q || ""
+            )}</div>
             <input type="text" id="q_seq_${sIdx}_${i}">
           </div>
         `;
       });
     } else if (section.type === "ma") {
+      // Matching / outline (Cargotecture: A–G)
       items.forEach((item, i) => {
+        const optionsHTML =
+          '<option value="">---</option>' +
+          MATCHING_CHOICES.map(
+            (letter) => `<option value="${letter}">${letter}</option>`
+          ).join("");
+
         html += `
           <div class="question">
-            <div class="question-number">${i + 1}. ${escapeHTML(item.q || "")}</div>
+            <div class="question-number">${i + 1}. ${escapeHTML(
+              item.q || ""
+            )}</div>
             <select id="q_ma_${sIdx}_${i}">
-              <option value="">---</option>
-              <option value="A">A</option>
-              <option value="B">B</option>
-              <option value="C">C</option>
-              <option value="D">D</option>
-              <option value="E">E</option>
-              <option value="F">F</option>
-              <option value="G">G</option>
+              ${optionsHTML}
             </select>
           </div>
         `;
@@ -128,7 +149,9 @@ function renderTest() {
       items.forEach((item, i) => {
         html += `
           <div class="question">
-            <div class="question-number">${i + 1}. ${escapeHTML(item.q || "")}</div>
+            <div class="question-number">${i + 1}. ${escapeHTML(
+              item.q || ""
+            )}</div>
             <input type="text" id="q_cloze_${sIdx}_${i}">
           </div>
         `;
@@ -146,11 +169,13 @@ function renderTest() {
   app.innerHTML = html;
 
   const btn = document.getElementById("submit_btn");
-  btn.addEventListener("click", async () => {
-    const result = gradeTest();
-    showScore(result);
-    await sendResults(result);
-  });
+  if (btn) {
+    btn.addEventListener("click", async () => {
+      const result = gradeTest();
+      showScore(result);
+      await sendResults(result);
+    });
+  }
 }
 
 // ==============================
@@ -158,12 +183,12 @@ function renderTest() {
 // ==============================
 function gradeTest() {
   const data = window.TESTDATA || { sections: [] };
-  const studentName = (document.getElementById("student_name")?.value || "").trim();
+  const studentName =
+    (document.getElementById("student_name")?.value || "").trim();
 
   let correct = 0;
   let total = 0;
 
-  // Collect per-question details (optional but helpful)
   const details = [];
 
   (data.sections || []).forEach((section, sIdx) => {
@@ -176,17 +201,21 @@ function gradeTest() {
 
       if (section.type === "tf") {
         user = getVal(`q_tf_${sIdx}_${i}`);
-        isCorrect = user === String(item.answer || "").trim();
+        const ans = String(item.answer || "").trim().toUpperCase();
+        isCorrect = user.toUpperCase() === ans;
       } else if (section.type === "mc") {
         user = getVal(`q_mc_${sIdx}_${i}`);
-        isCorrect = user === String(item.answer || "").trim().toUpperCase();
+        const ans = String(item.answer || "").trim().toUpperCase();
+        isCorrect = user.toUpperCase() === ans;
       } else if (section.type === "sequence") {
         user = getVal(`q_seq_${sIdx}_${i}`).trim().toLowerCase();
         const ans = String(item.answer || "").trim().toLowerCase();
         isCorrect = user === ans;
       } else if (section.type === "ma") {
+        // Matching A–G (including F, G for Cargotecture)
         user = getVal(`q_ma_${sIdx}_${i}`);
-        isCorrect = user === String(item.answer || "").trim().toUpperCase();
+        const ans = String(item.answer || "").trim().toUpperCase();
+        isCorrect = user.toUpperCase() === ans;
       } else if (section.type === "cloze") {
         user = getVal(`q_cloze_${sIdx}_${i}`).trim().toLowerCase();
         const ans = String(item.answer || "").trim().toLowerCase();
@@ -201,7 +230,7 @@ function gradeTest() {
         question: item.q || "",
         response: user,
         answer: item.answer || "",
-        correct: isCorrect
+        correct: isCorrect,
       });
     });
   });
@@ -214,7 +243,7 @@ function gradeTest() {
     correct,
     total,
     percent,
-    details
+    details,
   };
 }
 
@@ -227,7 +256,6 @@ function showScore(result) {
   const sb = document.getElementById("scorebox");
   if (!sb) return;
 
-  // Require name for clarity, but still display score
   if (!result.student_name) {
     sb.innerHTML = `Score: ${result.correct} / ${result.total} (${result.percent}%). <span style="color:#b00">Please enter your name before submitting so your teacher receives your results.</span>`;
   } else {
@@ -244,7 +272,10 @@ async function sendResults(result) {
 
   // If no name, don't email (avoid anonymous noise)
   if (!result.student_name) {
-    if (status) status.textContent = "Enter your name and click Submit again to send results to your teacher.";
+    if (status) {
+      status.textContent =
+        "Enter your name and click Submit again to send results to your teacher.";
+    }
     return;
   }
 
@@ -253,36 +284,46 @@ async function sendResults(result) {
     fd.append("access_key", WEB3FORMS_ACCESS_KEY);
     fd.append("subject", `Student Test Submission — ${result.title}`);
     fd.append("from_name", "AM English Test");
-    // You can customize where replies go if you want:
-    // fd.append("reply_to", "mdmanning@gbaps.org");
+    // fd.append("reply_to", "mdmanning@gbaps.org"); // optional
 
-    // Human-readable summary
     fd.append("student_name", result.student_name);
     fd.append("test_title", result.title);
-    fd.append("score", `${result.correct} / ${result.total} (${result.percent}%)`);
+    fd.append(
+      "score",
+      `${result.correct} / ${result.total} (${result.percent}%)`
+    );
 
-    // Attach compact JSON of details
     fd.append("details_json", JSON.stringify(result.details));
 
-    // Optional: a simple text table of responses
-    const lines = result.details.map(d =>
-      `${d.section} Q${d.number}: ${d.correct ? "✓" : "✗"} — resp: "${d.response}" / ans: "${d.answer}"`
-    ).join("\n");
+    const lines = result.details
+      .map(
+        (d) =>
+          `${d.section} Q${d.number}: ${
+            d.correct ? "✓" : "✗"
+          } — resp: "${d.response}" / ans: "${d.answer}"`
+      )
+      .join("\n");
     fd.append("details_text", lines);
 
     const res = await fetch(WEB3FORMS_ENDPOINT, {
       method: "POST",
-      body: fd
+      body: fd,
     });
 
     const data = await res.json();
     if (data && data.success) {
       if (status) status.textContent = "Results sent to the teacher successfully.";
     } else {
-      if (status) status.textContent = `Could not send results (Web3Forms): ${data?.message || "Unknown error"}`;
+      if (status) {
+        status.textContent = `Could not send results (Web3Forms): ${
+          data?.message || "Unknown error"
+        }`;
+      }
     }
   } catch (err) {
-    if (status) status.textContent = `Error sending results: ${String(err)}`;
+    if (status) {
+      status.textContent = `Error sending results: ${String(err)}`;
+    }
   }
 }
 
