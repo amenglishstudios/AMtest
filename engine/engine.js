@@ -6,8 +6,8 @@
 const WEB3FORMS_ACCESS_KEY = "001de0f4-2ade-44b4-8915-9ef482cda1da"; // your token
 const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
 
-// Matching-letter choices for MA sections (Cargotecture uses A–G)
-const MATCHING_CHOICES = ["A", "B", "C", "D", "E", "F", "G"];
+// Matching-letter choices for MA sections (now A–H)
+const MATCHING_CHOICES = ["A", "B", "C", "D", "E", "F", "G", "H"];
 
 // ==============================
 // LOAD TEST DATA
@@ -47,7 +47,7 @@ function renderTest() {
       <label for="student_name" style="font-weight:600; margin-right:8px;">Student Name:</label>
       <input id="student_name" type="text" placeholder="First Last" style="padding:6px; font-size:16px; min-width:260px;">
     </div>
- `;
+  `;
 
   // Sections
   (data.sections || []).forEach((section, sIdx) => {
@@ -126,7 +126,7 @@ function renderTest() {
         `;
       });
     } else if (section.type === "ma") {
-      // Matching / outline (Cargotecture: A–G)
+      // Matching / outline (now supports A–H)
       items.forEach((item, i) => {
         const optionsHTML =
           '<option value="">---</option>' +
@@ -212,7 +212,7 @@ function gradeTest() {
         const ans = String(item.answer || "").trim().toLowerCase();
         isCorrect = user === ans;
       } else if (section.type === "ma") {
-        // Matching A–G (including F, G for Cargotecture)
+        // Matching A–H
         user = getVal(`q_ma_${sIdx}_${i}`);
         const ans = String(item.answer || "").trim().toUpperCase();
         isCorrect = user.toUpperCase() === ans;
